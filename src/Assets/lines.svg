@@ -1,0 +1,12 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1000 1000" style="enable-background:new 0 0 1000 1000;" xml:space="preserve">
+	<style type="text/css">
+		.st3{fill:#adbbce;stroke:#adbbce;stroke-miterlimit:10;stroke-width: 5;}
+		.st2{fill:#adbbce;stroke:#adbbce;stroke-miterlimit:10;stroke-width: 5;}
+		.st1{fill:#e2000f;stroke:#e2000f;stroke-miterlimit:10;stroke-width: 15;}
+		.st0{fill:#426495;stroke:#426495;stroke-miterlimit:10;stroke-width: 10;}
+	</style>
+	<line class="anim-line st3" x1="0" y1="1500" x2="700" y2="0" />
+	<line class="anim-line st2" x1="0" y1="1200" x2="900" y2="0" />
+	<line class="anim-line st1" x1="0" y1="1000" x2="1000" y2="0" />
+	<line class="anim-line st0" x1="0" y1="300" x2="1200" y2="0" />
+</svg>
