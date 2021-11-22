@@ -1,2 +1,12 @@
 // LAYOUT TYPES
 export const OPEN_SIDEBAR = 'OPEN_SIDEBAR';
+
+// CAR TYPES
+export const GET_ALL_CARS = 'GET_ALL_CARS';
+export const GET_SINGLE_CAR = 'GET_SINGLE_CAR';
+export const GET_ALL_BRANDS = 'GET_ALL_BRANDS';
+export const GET_ALL_MODELS = 'GET_ALL_MODELS';
+export const GET_ALL_COLORS = 'GET_ALL_COLORS';
+export const GET_ALL_BODY_TYPES = 'GET_ALL_BODY_TYPES';
+export const GET_ALL_GEAR_TYPES = 'GET_ALL_GEAR_TYPES';
+export const GET_ALL_FUEL_TYPES = 'GET_ALL_FUEL_TYPES';

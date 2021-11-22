@@ -1,29 +1,28 @@
 import React, { useState } from 'react'
-import { StyledAbout } from './StyledAbout'
-import Car from 'Assets/cars/car15.png'
-import AboutTabs from './components/AboutTabs'
+import { StyledService } from './StyledService';
+import Car from 'Assets/cars/car13.png'
+import ServiceTabs from './components/ServiceTabs'
 import { translate } from 'react-switch-lang';
 
-function About(props) {
-
-    const [activeTab, setActiveTab] = useState('about')
+function Service(props) {
+    const [activeTab, setActiveTab] = useState('garanty')
     const { t } = props;
 
     return (
-        <StyledAbout>
+        <StyledService>
             <div className="banner">
                 <img className="car-img" src={Car} alt="" />
                 <div className="main-head">
-                    <h1>{t(`about.tabs.${activeTab}`)}</h1>
+                    <h1>{t(`service.tabs.${activeTab}`)}</h1>
                 </div>
             </div>
-            <AboutTabs
+            <ServiceTabs
                 activeTab={activeTab}
                 t={t}
                 handleTabChange={(tab) => setActiveTab(tab)}
             />
-        </StyledAbout>
+        </StyledService>
     )
 }
 
-export default translate(About);
+export default translate(Service);

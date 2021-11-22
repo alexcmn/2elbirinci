@@ -1,0 +1,175 @@
+{
+    "langBtn":{
+        "li1": "English",
+        "li2": "Turkish"
+    },
+    "home":{
+        "banner":{
+            "h1": "YOL ARKADAŞINIZI",
+            "h2": "GELİN BİRLİKTE",
+            "h3": "SEÇELİM"
+        },
+        "about":{
+            "h1": "Hayalindeki Otomobili Bul",
+            "p1": "Türkiye’de hali hazırda satışta olan tüm güncel marka ve modellerin 2.com sisteminde en iyi fiyatı alabilmen için seni bekliyor! Hayalinizdeki arabayı dilerseniz hemen teslim, dilerseniz markanın sunduğu ekstra donanım ve paket özelliklerini ekleyerek 2.El Birinci’de oluşturun. 2.El Birinci sistemi sizlere satışta olmayan ya da üretim imkanı bulunmayan bir otomobil için fiyat teklifi istemenize, dolayısıyla gerçekleşme imkanı bulunmayan hayaller kurmanıza asla imkan vermez. Bu sebeple 2.El Birinci aynı zamanda son derece güvenilir bir bilgi ve araştırma kaynağıdır.",
+            "h2": "Neden 2.El Birinci ?",
+            "p2": "Tüm çalışanlarımız, otomotiv sektöründe çeşitli görev ve sorumluluklar alarak tecrübe kazanmış profesyonellerden oluşmaktadır. Müşteri beklentileri ve hizmet standartları konusunda otomotiv sektörünün en donanımlı uzmanlarıdır.",
+            "icon1": "Yüzlerce araç",
+            "icon2": "Detaylı Ekspertiz",
+            "icon3": "Kolay Satın Alma Süreci",
+            "icon4": "Takas İmkanı",
+            "icon5": "Uygun Kredi  Seçenekleri",
+            "icon6": "Sorun Varsa Anında İade"
+        },
+        "faq":{
+            "title": "Test sürüş imkanımız var mı ?",
+            "desc": "İkinci El araçlarımızda test sürüşü imkanımız bulunmamaktadır, ancak araçlarımızın tüm bakım ve kontrolleri tamamlanmış, sürüş testleri alanında uzman  ekibimiz tarafından gerçekleştirilmiştir.",
+            "faq1h": "Kilometresi orijinal mi?",
+            "faq1p": "Bünyemizde yer alan tüm araçların plaka ve şaşi numaralarından 5664 sorguları yapılmış, Ulaştırma bakanlığının Tüv-Türk kayıtlaerı detaylı olarak incelenmiş ve kilometre doğrulukları titizlikle sağlanmıştır.",
+            "faq2h": "Alışverişiniz güvende mi?",
+            "faq2p": "Herhangi bir mağduriyet yaşamamak için araç alım ve satım işlemlerinizi noter huzurunda yapıyoruz. Araç üzerindeki haciz veya tahdit gibi durumları sorgulama işlemi notere gitmeden önce yapıp alışverişinizi güvence altına alıyoruz.",
+            "faq3h": "Garantisi var mı?",
+            "faq3p": " İkinci el bayiliği ile 4 yaş ve 80.000 km yi geçmemiş araçlar 12 ay PLUS garanti, 8 yaş ve 160.000 km yi geçmemiş araçlarda ise 6 ay CLASSIC garanti mevcuttur. Teslimat sırasında, tüm Türkiye’de geçerli garanti belgenizi almayı unutmayınız. Yaş ve km ye uymayan araçlarımızda garantili olup 101 nokta teknik kontrolden geçerek eksiksiz ve sorunsuz bil şekilde teslim edilmektedir.",
+            "faq4h": "Tramer kaydı var mı?",
+            "faq4p": "Tramer, Trafik Sigortaları Bilgi Merkezi kurumunun kısaltmasıdır. Bu sistem tüm sigorta bilgilerinin toplandığı bir veri deposudur. Bünyemizde bulunan tüm araçların şasi numarasını veya plakasını 5664 den gerekli sorguları yapılmıştır.",
+            "faq5h": "Kredide hızlı onay",
+            "faq5p": "Sıfır km. veya ikinci el araç için taşıt kredisi alma süreci, gelişen bankacılık sektöründe oldukça kısalıyor. Sadece T.C. kimlik numaranız ile başvuracağınız taşıt krediniz için, ortalama 1 gün içerisinde olumlu veya olumsuz cevap alabiliyorsunuz. Taşıt kredisi onay sürecinde en önemli etken ise kredi notunuz veya kredi puanınız. Eğer bankalar ile aranızdaki ilişki olumlu ise ve kredi ödemelerinizi aksatmadan yapıyorsanız kısa süre içerisinde taşıt krediniz onaylanıyor.",
+            "faq6h": "Estetik - Carcare hizmeti var mı?",
+            "faq6p": "Bünyemizde İç-Dış Yıkama ve Oto Kuaför Hizmetleri, İç koruma uygulamaları, Boya resorasyonu ve koruma uygulamaları, Boya Koruma Filmleri, Güneş Kontrol Filmleri, Cam Güvenlik Filmleri, Detaylı Temizlik Uygulamaları hizmetleri verilmektedir.",
+            "faq7h": "Hukuki açıdan sorunsuz mu?",
+            "faq7p": "Araç alım - satım süreci, sizin istek ve ihtiyaçlarınızın belirlenip karşılanmasıyla başlayan; satış sonrası hizmetlerle devam eden sorunsuz bir süreçtir. Tamamen müşteri odaklılık prensibiyle geliştirilmiş olan süreçlerin her noktasında kurumsal bir muhatap bulur; 'beklentilerinin üzerinde hizmet anlayışı'le İNCİROĞLU ayrıcalığını yaşarsınız.Konforlu ve rahat bir ortamda, zahmetsiz bir şekilde aracınızı alıp satabilirsiniz. Satılan ve alınan tüm araçların devir, noter ve ruhsat işlemleri; uzman personelimiz tarafından gerçekleştirilmektedir. Bu şekilde siz araç alıp satarken yorucu ve uzun prosedürlerle uğraşmadan kolaylıkla işlemleriniz gerçekleştirilir."
+        }
+    },
+    "about":{
+        "tabs":{
+            "about": "Hakkımızda ",
+            "mission": "Misyonumuz & Vizyonumuz",
+            "guaranty": "Garanti"
+        },
+        "tab1":{
+            "h1": "Hakkımızda",
+            "p1": "1985 yılında Kayseri merkezli olarak kurulan ve bünyesinde dev dünya markalarini bulunduran IN GROUP; 200'ü askin çalisani ile toplam 3 ayrı lokasyonda,  90.000 m2'lik bir alan üzerinde müşterilerine hizmet vermektedir. Kayseri'de sıfır araç ve 2. el binek araçta pazar lideri olan firmamiz yatirimlarina ve kurumsal yönetime geçis için altyapi çalismalarina basari ile devam etmektedir. Sirketimiz, sektör liderleri olan BMW, MINI, FIAT, OPEL, PEUGEOT, CITROEN, HONDA Türkiye Satış - Servis ve yedek parça bayiliklerini bünyesinde bulundurmaktadır. Ayrica her marka ve modelde yüzlerce stoğun yer aldığı 2. El Birinci, Premium Selection (Onaylı Kullanılmış Otomobiller) ve In Sigorta markaları ile hizmet vermektedir. Satis, servis, yedek parça, sigorta ve 2. el operasyonlarinda her zaman 'dogru fiyatlandirma ve müsteri memnuniyeti' odakli çalisma kültürünü benimsemektedir. Müsterileri için deger yaratmak, beklentilerine kalite ve istikrarla karsilik vermeyi önceligi olarak görmektedir ve çalisanlarinin gelisimini ve egitimini önemsemektedir.",
+            "h2": "IN Group",
+            "p2": "In Group, dürüst ve ilkeli çalismalariyla gerek sektöre, gerekse müsterilerine en iyi hizmeti sunmaktan hiçbir zaman taviz vermeden sosyal sorumluluk projelerine ve egitime destek vermeye devam ederek çeyrek asri geçen tecrübe ile ilimiz ve bölgemizde büyük bir katma deger yaratmaktadir."
+        },
+        "tab2":{
+            "h1": "Misyonumuz",
+            "p1": " In Group'ta yönetim ve çalisma anlayisimiz, koydugumuz hedeflerimiz üzerine kurulmustur. Sirketimizin uzun dönemde ulasmayi hedefledigi nokta vizyonumuzu; bu vizyona ulasmak için izleyecegimiz stratejilerimiz misyonlarimizi olusturmaktadir.",
+            "h2": "Vizyonumuz",
+            "p2": "Yenilikçi, müsteri odakli, sosyal sorumluluk bilinci yüksek, çalisanlari ile güvenilir bir dost olarak ülkemize deger katmak."
+        },
+        "tab3":{
+            "h1": "Garanti",
+            "p1": "İkinci el bayiliği ile 4 yaş ve 80.000 km yi geçmemiş araçlar 12 ay PLUS garanti, 8 yaş ve 160.000 km yi geçmemiş araçlarda ise 6 ay CLASSIC garanti mevcuttur. Teslimat sırasında, tüm Türkiye’de geçerli garanti belgenizi almayı unutmayınız. Yaş ve km ye uymayan araçlarımızda garantili olup 101 nokta teknik kontrolden geçerek eksiksiz ve sorunsuz bil şekilde teslim edilmektedir."
+        }
+    },
+    "service":{
+        "tabs":{
+            "garanty": "Garanti",
+            "expertise": "Expertiz",
+            "insurance": "Trafik Sigortası",
+            "casco": "Kasko",
+            "help": "Yardım"
+        },
+        "tab1":{
+            "h1": "Garanti",
+            "p1": "İkinci el bayiliği ile 4 yaş ve 80.000 km yi geçmemiş araçlar 12 ay PLUS garanti, 8 yaş ve 160.000 km yi geçmemiş araçlarda ise 6 ay CLASSIC garanti mevcuttur. Teslimat sırasında, tüm Türkiye’de geçerli garanti belgenizi almayı unutmayınız. Yaş ve km ye uymayan araçlarımızda garantili olup 101 nokta teknik kontrolden geçerek eksiksiz ve sorunsuz bil şekilde teslim edilmektedir."
+        },
+        "tab2":{
+            "h1": "Expertiz",
+            "p1": "İnciroglu 2.El, uzmanlığı ve sektördeki tecrübesi ile sizleri kafanızda soru işaretleri olmadan ikinci el araba sahibi yapıyor. İnciroglu 2.El yetkili satıcı ve servislerindeki uzman kadrolar, 2. el araba ilanlarımızı sizlerle buluşturmadan önce, ikinci el araçlar detaylı Ekspertiz sürecine tabi tutuluyorlar. Araç servis geçmişinin sorgulanmasıyla* başlayan Ekspertiz süreci, aracın mekanik aksam, boya-kaporta ve iç mekanının incelenmesiyle devam ediyor. Araç ekspertizi, aracın yol şartlarında test edilmesi ve bulguların raporlanmasıyla son buluyor."
+        },
+        "tab3":{
+            "h1": "Trafik Sigortası",
+            "p1": "Traffic Insurance is often confused with Motor Insurance. The difference between Traffic Insurance and Motor Vehicle Insurance is that it is a compulsory insurance aimed at covering the losses incurred by the other party, not the policyholder."
+        },
+        "tab4":{
+            "h1": "Kasko Sigortası Nedir?",
+            "p1": "Motorlu kara taşıtlarından herhangi birinin, sigortalı kişinin iradesi dışında, araç hareket halindeyken ya da dururken aracın beklenmedik bir durum karşısında hasara uğraması sonucunda sigorta sahibine ödenen tazminattır. Bu sigortanın amacı, sigorta ettirene ait aracın uğrayacağı zararların karşılanmasını sağlamaktır. Kasko ile kaza durumunda karşı tarafın hasarı değil, kasko sigortası yapılmış olan aracın hasarı karşılanmaktadır."
+        },
+        "tab5":{
+            "h1": "Yardım",
+            "p1": "Aracınızda olası arıza durumunda 365 gün 24 saat İnciroğlu yol yardım servisinden ücretsiz yol yardım hizmeti alabilirsiniz. Türkiye ve Avrupa ülkelerinde geçerli bir hizmettir.",
+            "h2": "İnciroğlu Gezici Servis ile Olay Yerinde Hizmet",
+            "p2": "Gezici Servisimiz olay yerine gelerek garanti kapsamındaki aracınızın onarımını ücretsiz gerçekleştirir. Garanti kapsamı dışında kalan hallerde (akü bitmesi, lastik patlaması, anahtar kaybedilmesi, yakıt bitmesinden dolayı yolda kalma, vb.) ücreti karşılığında hizmetler de verilebilir",
+            "h3": "İnciroğlu Yetkili Servisi'ne Çekim",
+            "p3": "Araç yerinde onarılamıyorsa en yakın Yetkili Servis'e veya 50 km ile sınırlı istediğiniz bir servise ücretsiz araç çekimi gerçekleştirir",
+            "h4": "Araç Kiralama Hizmetleri (Geçici Araç Temini)",
+            "p4": "Aracınızı hareketsiz kılan garanti kapsamındaki arızadan dolayı aynı gün içinde onarılamaz veya kullanılamaz duruma gelir ise onarımı süresindeki maksimum 3 iş günü (hafta sonuna gelen durumda toplam 4 gün) geçici araç verilir.",
+            "h5": "Veya Herhangi Bir Ulaşım Aracıyla Seyahate Devam",
+            "p5": "İkamet adresinize dönüş yol masrafları veya bu masrafları aşmayan tutarda seyahate devam edilebilir. Uçak, otobüs, tren ve şehir içinde taksi ile ulaşım sağlanır",
+            "h6": "Veya Otelde Konaklama",
+            "p6": "Aracınızın onarımını beklemek isterseniz 3 veya 4 yıldızlı bir otelde konaklama sağlanır"
+        }
+    },
+    "footer":{
+        "desc": "985 yılında Kayseri merkezli olarak kurulan ve bünyesinde dev dünya markalarini bulunduran IN GROUP; 200'ü askin çalisani ile toplam 3 ayrı lokasyonda,  90.000 m2'lik bir alan üzerinde müşterilerine hizmet vermektedir. Kayseri'de sıfır araç ve 2. el binek araçta pazar lideri olan firmamiz yatirimlarina ve kurumsal yönetime geçis için altyapi çalismalarina basari ile devam etmektedir.",
+        "links1":{
+            "h1": "Kurumsal",
+            "li1": "Hakkımızda",
+            "li2": "Misyonumuz & Vizyonumuz",
+            "li3": "İletişm"
+        },
+        "links2":{
+            "h1": "Hizmetlerimiz",
+            "li1": "Garanti",
+            "li2": "Expertiz",
+            "li3": "Trafik Sigortası",
+            "li4": "Kasko",
+            "li5": "Yardim"
+        }
+    },
+    "sidebar":{
+        "li1": "Anasayfa",
+        "li2": "Kurumsal",
+        "li3": "Hizmetlerimiz",
+        "li4": "Aracını Bul",
+        "li5": "İletişim"
+    },
+    "form": {
+        "brand": {
+            "label": "Marka",
+            "placeholder": "Seçme Marka"
+        },
+        "bodyType": {
+            "placeholder": "Seçme Kasa Tipi",
+            "label": "Kasa Tipi"
+        },
+        "fuelType": {
+            "placeholder": "Seçme FYakıt Tipi",
+            "label": "FYakıt Tipi"
+        },
+        "gearType": {
+            "placeholder": "Seçme Vites Tipi",
+            "label": "Vites Tipi"
+        },
+        "color": {
+            "placeholder": "Seçme Renk",
+            "label": "Renk"
+        },
+        "price": {
+            "label": "Fiyat"
+        },
+        "searchBtn": "Aracını Bul",
+        "showMoreBtn": "Daha fazla göster"
+    },
+    "carDetails":{
+        "multimedia": "Çoklu ortam",
+        "security": "Güvenlik",
+        "interiorHardware": "İç donanım",
+        "exteriorHardware": "Dış donanım",
+        "name": "İsim",
+        "brand": "Marka",
+        "model": "Araba markaları",
+        "modelYear": "Model yılı",
+        "km": "kilometre",
+        "fuelType": "Yakıt Tipi",
+        "gearType": "Vites Tipi",
+        "bodyType": "Gövde  TİPİ",
+        "motorPower": "Motor gücü",
+        "kilowatt": "Kilovat",
+        "cubicCapacity": "Kübik kapasite",
+        "seeringWheelSide": "Direksiyon Yan",
+        "color": "Renk"
+    }
+}

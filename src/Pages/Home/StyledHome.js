@@ -93,15 +93,13 @@ export const StyledHome = styled.div`
             `};
         }
         .logo{
-            width: 20rem;
-            height: 10rem;
+            width: 20vw;
             position: absolute;
-            top: 0;
-            left: 0;
+            top: 5rem;
+            left: 5rem;
             z-index: 12;
-            svg{
-                width: 100%;
-                height: 100%;
+            img{
+                width: 50%;
             }
             ${({ theme }) => theme.phone`
                 left: -4rem;
@@ -244,6 +242,48 @@ export const StyledCardFilters = styled.div`
         background: var(--white);
         box-shadow: 5px 5px 20px 10px rgba(0,0,0,0.1);
         padding: 20px;
+        form{
+            .row{
+                div{
+                    height: fit-content;
+                    label{
+                        color: var(--blue1);
+                        font-weight: 500;
+                    }
+                    &>div{
+                        margin: 0;
+                        select{
+                            border-color: var(--blue1);
+                            color: var(--blue1);
+                        }
+                    }
+                    .MuiSlider-root{
+                        margin-top: 0;
+                        span{
+                            &:last-child{
+                                span{
+                                    color: var(--blue1);
+                                }
+                            }
+                        }
+                    }
+                    .range-min-max{
+                        color: var(--blue1);
+                    }
+                    &:nth-child(2){
+                        margin: 0 !important;
+                        &>span{
+                            margin: 0;
+                        }
+                    }
+                    &:last-child{
+                        button{
+                            margin-top: 1rem;
+                        }
+                    }
+                }
+            }
+        }
     }
     ${({ theme }) => theme.phone`
         opacity: 0;
@@ -293,6 +333,17 @@ export const StyledHomeAbout = styled.section`
                 .desc-box{
                     p{
                         text-align: center;
+                    }
+                    &:last-child{
+                        margin-top: 5rem;
+                    }
+                    .icon-desc{
+                        margin-top: 3rem;
+                        svg{
+                            path{
+                                fill: var(--blue1);
+                            }
+                        }
                     }
                 }
             }

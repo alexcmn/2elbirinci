@@ -6,7 +6,7 @@ export const StyledHamburger = styled.div`
     height: 5rem;
     background: var(--white);
     border-radius: 10px;
-    z-index: 9999999;
+    z-index: 99999999;
     top: 3rem;
     right: 3rem;
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.25);
@@ -66,7 +66,7 @@ export const StyledSidebar = styled.div`
     height: 100vh;
     background: var(--blue1);
     transition: 0.5s ease-in-out;
-    z-index: 99999;
+    z-index: 9999999;
     display: flex;
     align-items: center;
     justify-content: center;

@@ -3,8 +3,15 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { StyledHomeAbout } from '../StyledHome'
 import Car from 'Assets/cars/car1.png';
 import { StyledHeadline } from 'Components/shared/styledComponents/Elements';
+import { ReactComponent as HB1 } from 'Assets/icons/hb1.svg';
+import { ReactComponent as HB2 } from 'Assets/icons/hb2.svg';
+import { ReactComponent as HB3 } from 'Assets/icons/hb3.svg';
+import { ReactComponent as HB4 } from 'Assets/icons/hb4.svg';
+import { ReactComponent as HB5 } from 'Assets/icons/hb5.svg';
+import { ReactComponent as HB6 } from 'Assets/icons/hb6.svg';
+import { translate } from 'react-switch-lang';
 
-export default function About() {
+function About({ t }) {
 
     let parent = document.querySelectorAll('.animate-text');
     useEffect(() => {
@@ -23,12 +30,38 @@ export default function About() {
                         </Col>
                         <Col md={7} className="right-ab">
                             <div className="desc-box">
-                                <StyledHeadline data-text="Hayalindeki Otomobili Bul!">Hayalindeki Otomobili Bul !</StyledHeadline>
-                                <p>Türkiye’de hali hazırda satışta olan tüm güncel marka ve modeller in2.comsisteminde en iyi fiyatı alabilmen için seni bekliyor! Hayalinizdeki arabayı dilerseniz hemen teslim, dilerseniz markanın sunduğu ekstra donanım ve paket özelliklerini ekleyerek 2.El Birinci’de oluşturun. 2.El Birinci sistemi sizlere satışta olmayan ya da üretim imkanı bulunmayan bir otomobil için fiyat teklifi istemenize, dolayısıyla gerçekleşme imkanı bulunmayan hayaller kurmanıza asla imkan vermez. Bu sebeple 2.El Birinci aynı zamanda son derece güvenilir bir bilgi ve araştırma kaynağıdır.</p>
+                                <StyledHeadline data-text={t('home.about.h1')}>{t('home.about.h1')}</StyledHeadline>
+                                <p>{t('home.about.p1')}</p>
                             </div>
                             <div className="desc-box">
-                                <StyledHeadline data-text="Neden 2.El Birinci ?">Neden 2.El Birinci ?</StyledHeadline>
-                                <p>Tüm çalışanlarımız, otomotiv sektöründe çeşitli görev ve sorumluluklar alarak tecrübe kazanmış profesyonellerden oluşmaktadır. Müşteri beklentileri ve hizmet standartları konusunda otomotiv sektörünün en donanımlı uzmanlarıdır.</p>
+                                <StyledHeadline data-text={t('home.about.h2')}>{t('home.about.h2')}</StyledHeadline>
+                                <p>{t('home.about.p2')}</p>
+                                <div className="row icon-desc">
+                                    <Col md={2}>
+                                        <HB1/>
+                                        <p>{t('home.about.icon1')}</p>
+                                    </Col>
+                                    <Col md={2}>
+                                        <HB2/>
+                                        <p>{t('home.about.icon2')}</p>
+                                    </Col>
+                                    <Col md={2}>
+                                        <HB3/>
+                                        <p>{t('home.about.icon3')}</p>
+                                    </Col>
+                                    <Col md={2}>
+                                        <HB4/>
+                                        <p>{t('home.about.icon4')}</p>
+                                    </Col>
+                                    <Col md={2}>
+                                        <HB5/>
+                                        <p>{t('home.about.icon5')}</p>
+                                    </Col>
+                                    <Col md={2}>
+                                        <HB6/>
+                                        <p>{t('home.about.icon6')}</p>
+                                    </Col>
+                                </div>
                             </div>
                         </Col>
                     </Row>
@@ -47,3 +80,5 @@ export default function About() {
         </StyledHomeAbout>
     )
 }
+
+export default translate(About);

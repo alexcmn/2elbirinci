@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useSnackbar } from 'notistack';
 import { StyledCardFilters } from '../StyledHome'
 import { generateData, isFormValid, update } from 'Components/Utils/Form/formActions';
@@ -10,111 +10,119 @@ import { ReactComponent as Truck } from 'Assets/truck.svg';
 import { ReactComponent as Wagon } from 'Assets/wagon.svg';
 import { ReactComponent as Hatcback } from 'Assets/hatcback.svg';
 import useWindowDimensions from 'Hooks/useWindowDimensions';
+import { useSelector } from 'react-redux';
+import { useHistory } from 'react-router';
+import { translate } from 'react-switch-lang';
 
-export default function CarFilters({isMobActive}) {
+function CarFilters({ isMobActive, t, activeLang }) {
 
+    const history = useHistory();
     const { enqueueSnackbar } = useSnackbar();
+    const carsState = useSelector(state => state.cars_reducer);
+    const { allCars, allBrands, allModels, allColors, allBodyTypes, allGearTypes, allFuelTypes } = carsState;
     const [formError, setFormError] = useState(false);
-    const [formdata, setFormdata] = useState({
-        brand: {
-            element: 'select',
-            value: '',
-            config: {
-                name: 'brand_input',
-                placeholder: 'Select Car Brand',
-                options: [
-                    { key: 'bmw', value: 'BMW' },
-                    { key: 'audi', value: 'Audi' },
-                    { key: 'mercedes', value: 'Mercedes' },
-                ]
-            },
-            validation: {
-                required: false
-            },
-            sizes: { md: 4 },
-            valid: true,
-            touched: true,
-            validationMessage: ''
-        },
-        model: {
-            element: 'select',
-            value: '',
-            config: {
-                name: 'brand_input',
-                placeholder: 'Select Car Brand',
-                options: [
-                    { key: 'm1', value: 'M1' },
-                    { key: 'm2', value: 'M2' },
-                    { key: 'm3', value: 'M3' },
-                ]
-            },
-            validation: {
-                required: false
-            },
-            sizes: { md: 4 },
-            valid: true,
-            touched: true,
-            validationMessage: ''
-        },
-        range: {
-            element: 'range',
-            defaultValue: 100000,
-            sizes: { md: 4 },
-            minValue: 0,
-            maxValue: 1000000
-        },
-        sedan: {
-            element: 'checkbox',
-            name: `sedan_checkbox`,
-            value: false,
-            config: {
-                label: 'Sedan',
-                icon: <Sedan/>
-            },
-            sizes: { md: 3 }
-        },
-        wagon: {
-            element: 'checkbox',
-            name: `wagon_checkbox`,
-            value: false,
-            config: {
-                label: 'Wagon',
-                icon: <Wagon/>
-            },
-            sizes: { md: 3 }
-        },
-        suv: {
-            element: 'checkbox',
-            name: `suv_checkbox`,
-            value: false,
-            config: {
-                label: 'SUV',
-                icon: <Sedan/>
-            },
-            sizes: { md: 3 }
-        },
-        truck: {
-            element: 'checkbox',
-            name: `truck_checkbox`,
-            value: false,
-            config: {
-                label: 'Truck',
-                icon: <Truck/>
-            },
-            sizes: { md: 3 }
-        },
-        hatcback: {
-            element: 'checkbox',
-            name: `hatcback_checkbox`,
-            value: false,
-            config: {
-                label: 'Hatcback',
-                icon: <Hatcback/>
-            },
-            sizes: { md: 3 }
-        }
-    })
+    const [formdata, setFormdata] = useState()
     const { width } = useWindowDimensions();
+
+    useEffect(() => {
+        const newData = { ...formdata };
+        Object.assign(newData, {
+            brand: {
+                element: 'select',
+                value: '',
+                config: {
+                    name: 'brand_select',
+                    placeholder: t('form.brand.placeholder'),
+                    label: t('form.brand.label'),
+                    options: allBrands?.map(cat => { return { key: cat?.name[activeLang]?.toLowerCase(), value: cat?.name[activeLang] } })
+                },
+                validation: {
+                    required: false
+                },
+                sizes: { md: 3 },
+                valid: true,
+                touched: true,
+                validationMessage: ''
+            },
+            bodyType: {
+                element: 'select',
+                value: '',
+                config: {
+                    name: 'body_type_select',
+                    placeholder: t('form.bodyType.placeholder'),
+                    label: t('form.bodyType.label'),
+                    options: allBodyTypes?.map(cat => { return { key: cat?.typeName[activeLang]?.toLowerCase(), value: cat?.typeName[activeLang] } })
+                },
+                validation: {
+                    required: false
+                },
+                sizes: { md: 3 },
+                valid: true,
+                touched: true,
+                validationMessage: ''
+            },
+            fuelType: {
+                element: 'select',
+                value: '',
+                config: {
+                    name: 'fuel_type_select',
+                    placeholder: t('form.fuelType.placeholder'),
+                    label: t('form.fuelType.label'),
+                    options: allFuelTypes?.map(cat => { return { key: cat?.typeName[activeLang]?.toLowerCase(), value: cat?.typeName[activeLang] } })
+                },
+                validation: {
+                    required: false
+                },
+                sizes: { md: 3 },
+                valid: true,
+                touched: true,
+                validationMessage: ''
+            },
+            gearType: {
+                element: 'select',
+                value: '',
+                config: {
+                    name: 'gear_type_select',
+                    placeholder: t('form.gearType.placeholder'),
+                    label: t('form.gearType.label'),
+                    options: allGearTypes?.map(cat => { return { key: cat?.typeName[activeLang]?.toLowerCase(), value: cat?.typeName[activeLang] } })
+                },
+                validation: {
+                    required: false
+                },
+                sizes: { md: 3 },
+                valid: true,
+                touched: true,
+                validationMessage: ''
+            },
+            color: {
+                element: 'select',
+                value: '',
+                config: {
+                    name: 'color_select',
+                    placeholder: t('form.color.placeholder'),
+                    label: t('form.color.label'),
+                    options: allColors?.map(cat => { return { key: cat?.name[activeLang]?.toLowerCase(), value: cat?.name[activeLang], hex: cat?.hexCode } })
+                },
+                validation: {
+                    required: false
+                },
+                sizes: { md: 4 },
+                valid: true,
+                touched: true,
+                validationMessage: ''
+            },
+            price: {
+                element: 'range',
+                defaultValue: 300000,
+                sizes: { md: 4 },
+                minValue: 0,
+                label: t('form.price.label'),
+                maxValue: 1000000
+            },
+        })
+        setFormdata(newData);
+    }, [carsState, activeLang])
 
     const handleChange = (element) => {
         const newFormdata = update(element, formdata);
@@ -129,10 +137,10 @@ export default function CarFilters({isMobActive}) {
         let formIsVaid = isFormValid(formdata);
 
         if (formIsVaid) {
-            enqueueSnackbar("You Have Successfuly Loged In", { variant: "success" });
+            // enqueueSnackbar("You Have Successfuly Loged In", { variant: "success" });
             console.log(formError, dataToSubmit);
         } else {
-            enqueueSnackbar("Please Check Your Data", { variant: "error" });
+            // enqueueSnackbar("Please Check Your Data", { variant: "error" });
         }
     }
 
@@ -142,7 +150,7 @@ export default function CarFilters({isMobActive}) {
                 <Form onSubmit={() => handleSubmit()}>
                     <Row>
                         {
-                            Object.entries(formdata).map(([key, val]) => {
+                            formdata && Object.entries(formdata).map(([key, val]) => {
                                 return (
                                     <FormField
                                         id={key}
@@ -152,8 +160,8 @@ export default function CarFilters({isMobActive}) {
                                 )
                             })
                         }
-                        <Col md={3}>
-                            <ButtonPrimary className="w-100">Search Property</ButtonPrimary>
+                        <Col md={4}>
+                            <ButtonPrimary className="w-100" onClick={() => history.push('/cars')}>{t('form.searchBtn')}</ButtonPrimary>
                         </Col>
                     </Row>
                 </Form>
@@ -161,3 +169,5 @@ export default function CarFilters({isMobActive}) {
         </StyledCardFilters>
     )
 }
+
+export default translate(CarFilters);

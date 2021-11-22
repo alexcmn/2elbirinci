@@ -142,10 +142,24 @@ const FormField = ({ formdata, change, id }) => {
                             >
                                 <option value="">{formdata.config.placeholder}</option>
                                 {
-                                    formdata.config.options.map(item => (
+                                    formdata?.config?.options?.map(item => (
                                         <option key={item.key}
                                             value={item.key}
                                         >
+                                            {/* {
+                                                id === 'color' ?
+                                                    <>
+                                                        <div
+                                                            style={{
+                                                                width: '2rem',
+                                                                height: '2rem',
+                                                                borderRadius: '50%',
+                                                                background: `${item.hex}`
+                                                            }}
+                                                        />
+                                                    </>
+                                                }
+                                                    : */}
                                             {item.value}
                                         </option>
                                     ))
@@ -159,6 +173,7 @@ const FormField = ({ formdata, change, id }) => {
             case ('range'):
                 formTemplate = (
                     <StyledFormField {...formdata.sizes} className="mt-3">
+                        <Form.Label>{formdata.label}</Form.Label>
                         <Range
                             aria-label="pretto slider"
                             marks={marks}
@@ -168,8 +183,8 @@ const FormField = ({ formdata, change, id }) => {
                             max={formdata.maxValue}
                         />
                         <div className="range-min-max">
-                            <span>{formdata.minValue} $</span>
-                            <span>{formdata.maxValue} $</span>
+                            <span>{formdata.minValue} TRY</span>
+                            <span>{formdata.maxValue} TRY</span>
                         </div>
                     </StyledFormField>
                 )

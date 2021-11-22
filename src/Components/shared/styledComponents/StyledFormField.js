@@ -87,11 +87,33 @@ export const StyledFormField = styled(Col)`
           }
         }
     }
+    label{
+        color: var(--white);
+    }
+    &>div{
+        width: 100%;
+        margin-bottom: 2rem;
+        select{
+            background: transparent;
+            border: 1px solid var(--white);
+            color: var(--white);
+        }
+    }
+    .MuiSlider-root{
+        margin-top: 2rem;
+        span{
+            &:last-child{
+                span{
+                    color: var(--white);
+                }
+            }
+        }
+    }
     .range-min-max{
         width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;
-        color: var(--grey4);
+        color: var(--white);
     }
 `

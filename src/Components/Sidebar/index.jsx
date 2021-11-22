@@ -6,16 +6,23 @@ import useWindowScroll from 'Hooks/useWindowScroll';
 import { SideBarOpenAction } from 'Store/actions/layout_actions';
 import { ReactComponent as Menu } from 'Assets/menu.svg';
 import { NavLink } from 'react-router-dom';
+import { translate } from 'react-switch-lang';
 
-export default function Sidebar() {
+function Sidebar(props) {
 
     const history = useHistory();
     const dispatch = useDispatch();
     const { scrollTop } = useWindowScroll();
     const [active, setActive] = useState(false);
+    const { t } = props;
 
     const openSidebar = () => {
         dispatch(SideBarOpenAction())
+    }
+
+    const redirectTo = (path) =>{
+        history.push(path);
+        setActive(false)
     }
 
     return (
@@ -25,23 +32,25 @@ export default function Sidebar() {
             </StyledHamburger>
             <StyledSidebar className={active ? 'active' : ''}>
                 <ul>
-                    <li>
-                        <NavLink exact to="/" data-text="Home">Home</NavLink>
+                    <li onClick={() => redirectTo('/')}>
+                        <NavLink exact to="/" data-text={t('sidebar.li1')}>{t('sidebar.li1')}</NavLink>
                     </li>
-                    <li>
-                        <NavLink exact to="/about" data-text="Corporate">Corporate</NavLink>
+                    <li onClick={() => redirectTo('/about')}>
+                        <NavLink exact to="/about" data-text={t('sidebar.li2')}>{t('sidebar.li2')}</NavLink>
                     </li>
-                    <li>
-                        <NavLink exact to="/about" data-text="Service">Service</NavLink>
+                    <li onClick={() => redirectTo('/service')}>
+                        <NavLink exact to="/service" data-text={t('sidebar.li3')}>{t('sidebar.li3')}</NavLink>
                     </li>
-                    <li>
-                        <NavLink exact to="/about" data-text="Find Your Vehicle">Find Your Vehicle</NavLink>
+                    <li onClick={() => redirectTo('/cars')}>
+                        <NavLink exact to="/cars" data-text={t('sidebar.li4')}>{t('sidebar.li4')}</NavLink>
                     </li>
-                    <li>
-                        <NavLink exact to="/about" data-text="Contact Us">Contact Us</NavLink>
+                    <li onClick={() => redirectTo('/contact')}>
+                        <NavLink exact to="/contact" data-text={t('sidebar.li5')}>{t('sidebar.li5')}</NavLink>
                     </li>
                 </ul>
             </StyledSidebar>
         </>
     )
 }
+
+export default translate(Sidebar)
