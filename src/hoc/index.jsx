@@ -1,7 +1,6 @@
 import React from 'react'
-import Navigation from 'Components/Navigation';
 import Footer from 'Components/Footer';
-import ModalSystem from 'Components/ModalSystem'
+// import ModalSystem from 'Components/ModalSystem'
 import Sidebar from 'Components/Sidebar';
 import { useLocation } from 'react-router-dom';
 import LangBtn from 'Components/LangBtn';
@@ -25,12 +24,11 @@ export default function Layout(props) {
 
     return (
         <>
-            {/* <Navigation /> */}
             <Sidebar />
             {props.children}
             { location.pathname === '/cars' ? null : <Footer /> }
             <LangBtn changeLanguage={(key) => changeLanguage(key)} />
-            <ModalSystem />
+            {/* <ModalSystem /> */}
         </>
     )
 }

@@ -22,7 +22,7 @@ function SingleCar(props) {
 
     useEffect(() => {
         dispatch(getSingleCar(id));
-    }, [])
+    }, [dispatch, id])
 
     useEffect(() => {
         singleCarData && singleCarData[activeTab].length && setDataToRender(singleCarData[activeTab]);

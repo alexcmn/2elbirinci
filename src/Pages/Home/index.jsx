@@ -8,8 +8,7 @@ import About from './components/about';
 import FAQ from './components/faq';
 import useWindowDimensions from 'Hooks/useWindowDimensions';
 import { FiMoreHorizontal } from 'react-icons/fi';
-import { update } from 'Components/Utils/Form/formActions';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { getAllBodyTypes, getAllBrands, getAllCars, getAllColors, getAllFuelTypes, getAllGearTypes, getAllModels } from 'Store/actions/cars_actions';
 import { translate, getLanguage } from 'react-switch-lang';
 
@@ -29,7 +28,7 @@ function Home(props) {
         dispatch(getAllFuelTypes());
         dispatch(getAllGearTypes());
         dispatch(getAllColors());
-    }, [])
+    }, [dispatch])
 
     return (
         <StyledHome>

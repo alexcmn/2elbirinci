@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Button } from "react-bootstrap";
-import { transparentize } from "polished";
+// import { transparentize } from "polished";
 
 export const ButtonPrimary = styled(Button)`
     width: 100%;

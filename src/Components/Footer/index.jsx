@@ -50,32 +50,32 @@ function Footer(props) {
         }
     ]
 
-    const policyLinks = [
-        {
-            name: 'Privacy Policy',
-            path: '/abouts'
-        },
-        {
-            name: 'Membership Agreement',
-            path: '/abouts'
-        },
-        {
-            name: 'Terms of Use',
-            path: '/abouts'
-        },
-        {
-            name: 'Protection of Personal Data',
-            path: '/abouts'
-        },
-        {
-            name: 'Cookie Policy',
-            path: '/abouts'
-        },
-        {
-            name: 'About Vehicle Options',
-            path: '/abouts'
-        }
-    ]
+    // const policyLinks = [
+    //     {
+    //         name: 'Privacy Policy',
+    //         path: '/abouts'
+    //     },
+    //     {
+    //         name: 'Membership Agreement',
+    //         path: '/abouts'
+    //     },
+    //     {
+    //         name: 'Terms of Use',
+    //         path: '/abouts'
+    //     },
+    //     {
+    //         name: 'Protection of Personal Data',
+    //         path: '/abouts'
+    //     },
+    //     {
+    //         name: 'Cookie Policy',
+    //         path: '/abouts'
+    //     },
+    //     {
+    //         name: 'About Vehicle Options',
+    //         path: '/abouts'
+    //     }
+    // ]
 
     const renderLinks = (links) => {
         const newLinks = links.map((link, idx) => {
@@ -116,18 +116,18 @@ function Footer(props) {
                 </Row>
                 <div className="copyrights">
                     <div className="cpr">
-                        <p>Designed and developed by <a href="https://www.oneitsol.com/" target="_blank">ONE IT Solutions</a> <AiOutlineCopyrightCircle /></p>
+                        <p>Designed and developed by <a href="https://www.oneitsol.com/" target="_blank" rel="noopener noreferrer">ONE IT Solutions</a> <AiOutlineCopyrightCircle /></p>
                     </div>
                     <div className="social">
                         <ul>
                             <li>
-                                <a href="https://www.facebook.com/inciroglu2elbirinci" target="_blank"><FiFacebook /></a>
+                                <a href="https://www.facebook.com/inciroglu2elbirinci" target="_blank" rel="noopener noreferrer"><FiFacebook /></a>
                             </li>
                             <li>
-                                <a href="https://www.instagram.com/incirogluikincielbirinci/" target="_blank"><FiInstagram /></a>
+                                <a href="https://www.instagram.com/incirogluikincielbirinci/" target="_blank" rel="noopener noreferrer"><FiInstagram /></a>
                             </li>
                             <li>
-                                <a href="https://www.linkedin.com/company/inciro%C4%9Flu-otomotiv" target="_blank"><FiLinkedin /></a>
+                                <a href="https://www.linkedin.com/company/inciro%C4%9Flu-otomotiv" target="_blank" rel="noopener noreferrer"><FiLinkedin /></a>
                             </li>
                         </ul>
                     </div>

@@ -4,7 +4,7 @@ import Logo from 'Assets/logo1.png';
 import { useDispatch, useSelector } from 'react-redux';
 import { getAllBodyTypes, getAllBrands, getAllCars, getAllColors, getAllFuelTypes, getAllGearTypes, getAllModels } from 'Store/actions/cars_actions';
 import { Form, Container, Row, Col } from 'react-bootstrap';
-import { update } from 'Components/Utils/Form/formActions';
+import { generateData, isFormValid, update } from 'Components/Utils/Form/formActions';
 import FormField from 'Components/Utils/Form/formFields';
 import { ButtonPrimary } from 'Components/shared/styledComponents/Button';
 import useWindowDimensions from 'Hooks/useWindowDimensions';
@@ -17,7 +17,7 @@ function AllCars(props) {
     const dispatch = useDispatch();
     const history = useHistory();
     const carsState = useSelector(state => state.cars_reducer);
-    const { allCars, allBrands, allModels, allColors, allBodyTypes, allGearTypes, allFuelTypes } = carsState;
+    const { allCars, allBrands, allColors, allBodyTypes, allGearTypes, allFuelTypes } = carsState;
     const [formdata, setFormdata] = useState({})
     const [formError, setFormError] = useState(false);
     const [activeFilter, setActiveFilter] = useState(false);
@@ -33,7 +33,7 @@ function AllCars(props) {
         dispatch(getAllFuelTypes());
         dispatch(getAllGearTypes());
         dispatch(getAllColors());
-    }, [])
+    }, [dispatch])
 
     useEffect(() => {
         const newData = { ...formdata };
@@ -133,12 +133,26 @@ function AllCars(props) {
             }
         })
         setFormdata(newData);
-    }, [carsState, activeLang])
+    }, [allCars, allBrands, allColors, allBodyTypes, allGearTypes, allFuelTypes, activeLang, formdata, t])
 
     const handleChange = (element) => {
         const newFormdata = update(element, formdata);
         setFormError(false);
         setFormdata(newFormdata);
+    }
+
+    const handleSubmit = (event) => {
+        event.preventDefault();
+
+        let dataToSubmit = generateData(formdata);
+        let formIsVaid = isFormValid(formdata);
+
+        if (formIsVaid) {
+            // enqueueSnackbar("You Have Successfuly Loged In", { variant: "success" });
+            console.log(formError, dataToSubmit);
+        } else {
+            // enqueueSnackbar("Please Check Your Data", { variant: "error" });
+        }
     }
 
     return (
@@ -152,7 +166,7 @@ function AllCars(props) {
             }
             <StyledFilterSidebar className={activeFilter ? 'active' : ''}>
                 <div className="logo"><img src={Logo} alt="" /></div>
-                <Form>
+                <Form onSubmit={() => handleSubmit()}>
                     {
                         Object.entries(formdata).map(([key, val]) => {
                             return (

@@ -1,15 +1,13 @@
 import React, { useEffect, useState } from 'react'
-import { useSnackbar } from 'notistack';
 import { StyledCardFilters } from '../StyledHome'
 import { generateData, isFormValid, update } from 'Components/Utils/Form/formActions';
 import { Col, Form, Row } from 'react-bootstrap';
 import { ButtonPrimary } from 'Components/shared/styledComponents/Button';
 import FormField from 'Components/Utils/Form/formFields';
-import { ReactComponent as Sedan } from 'Assets/sedan.svg';
-import { ReactComponent as Truck } from 'Assets/truck.svg';
-import { ReactComponent as Wagon } from 'Assets/wagon.svg';
-import { ReactComponent as Hatcback } from 'Assets/hatcback.svg';
-import useWindowDimensions from 'Hooks/useWindowDimensions';
+// import { ReactComponent as Sedan } from 'Assets/sedan.svg';
+// import { ReactComponent as Truck } from 'Assets/truck.svg';
+// import { ReactComponent as Wagon } from 'Assets/wagon.svg';
+// import { ReactComponent as Hatcback } from 'Assets/hatcback.svg';
 import { useSelector } from 'react-redux';
 import { useHistory } from 'react-router';
 import { translate } from 'react-switch-lang';
@@ -17,12 +15,10 @@ import { translate } from 'react-switch-lang';
 function CarFilters({ isMobActive, t, activeLang }) {
 
     const history = useHistory();
-    const { enqueueSnackbar } = useSnackbar();
     const carsState = useSelector(state => state.cars_reducer);
-    const { allCars, allBrands, allModels, allColors, allBodyTypes, allGearTypes, allFuelTypes } = carsState;
+    const { allBrands, allColors, allBodyTypes, allGearTypes, allFuelTypes } = carsState;
     const [formError, setFormError] = useState(false);
     const [formdata, setFormdata] = useState()
-    const { width } = useWindowDimensions();
 
     useEffect(() => {
         const newData = { ...formdata };
@@ -122,7 +118,7 @@ function CarFilters({ isMobActive, t, activeLang }) {
             },
         })
         setFormdata(newData);
-    }, [carsState, activeLang])
+    }, [allBrands, allColors, allBodyTypes, allGearTypes, allFuelTypes, activeLang, formdata, t])
 
     const handleChange = (element) => {
         const newFormdata = update(element, formdata);

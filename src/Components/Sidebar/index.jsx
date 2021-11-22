@@ -1,9 +1,6 @@
 import React, { useState } from 'react'
-import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router';
 import { StyledHamburger, StyledSidebar } from './StyledSidebar'
-import useWindowScroll from 'Hooks/useWindowScroll';
-import { SideBarOpenAction } from 'Store/actions/layout_actions';
 import { ReactComponent as Menu } from 'Assets/menu.svg';
 import { NavLink } from 'react-router-dom';
 import { translate } from 'react-switch-lang';
@@ -11,14 +8,8 @@ import { translate } from 'react-switch-lang';
 function Sidebar(props) {
 
     const history = useHistory();
-    const dispatch = useDispatch();
-    const { scrollTop } = useWindowScroll();
     const [active, setActive] = useState(false);
     const { t } = props;
-
-    const openSidebar = () => {
-        dispatch(SideBarOpenAction())
-    }
 
     const redirectTo = (path) =>{
         history.push(path);
