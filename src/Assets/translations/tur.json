@@ -171,5 +171,13 @@
         "cubicCapacity": "Kübik kapasite",
         "seeringWheelSide": "Direksiyon Yan",
         "color": "Renk"
+    },
+    "contact":{
+        "comp": "İnciroğlu Otomotiv A.Ş.",
+        "h1": "İnciroglu 2.El Birinci",
+        "address": "Adres",
+        "phone": "Telefon",
+        "wp": "WhatsApp",
+        "mail": "Mail"
     }
 }

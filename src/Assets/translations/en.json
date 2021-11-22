@@ -171,5 +171,13 @@
         "cubicCapacity": "Cubic Capacity",
         "seeringWheelSide": "Steering Wheel Side",
         "color": "Color"
+    },
+    "contact":{
+        "comp": "İnciroğlu Otomotiv S.C.C.",
+        "h1": "İnciroglu 2.El Birinci",
+        "address": "Address",
+        "phone": "Telephone",
+        "wp": "WhatsApp",
+        "mail": "Mail"
     }
 }
