@@ -40,7 +40,6 @@ export const StyledAbout = styled.div`
                 background-position: inherit;
             `};
         }
-        
         .main-head{
             position: absolute;
             bottom: 50%;
