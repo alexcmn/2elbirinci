@@ -46,7 +46,6 @@ export const StyledAbout = styled.div`
             width: 100%;
             z-index: 10;
             transform: skewY(-6deg) translateY(50%);
-            
             h1{
                 font-size: 11em;
                 text-align: center;
