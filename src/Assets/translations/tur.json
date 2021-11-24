@@ -60,7 +60,9 @@
         },
         "tab3":{
             "h1": "Garanti",
-            "p1": "İkinci el bayiliği ile 4 yaş ve 80.000 km yi geçmemiş araçlar 12 ay PLUS garanti, 8 yaş ve 160.000 km yi geçmemiş araçlarda ise 6 ay CLASSIC garanti mevcuttur. Teslimat sırasında, tüm Türkiye’de geçerli garanti belgenizi almayı unutmayınız. Yaş ve km ye uymayan araçlarımızda garantili olup 101 nokta teknik kontrolden geçerek eksiksiz ve sorunsuz bil şekilde teslim edilmektedir."
+            "p1": "İkinci el bayiliği ile 4 yaş ve 80.000 km yi geçmemiş araçlar 12 ay PLUS garanti, 8 yaş ve 160.000 km yi geçmemiş araçlarda ise 6 ay CLASSIC garanti mevcuttur. Teslimat sırasında, tüm Türkiye’de geçerli garanti belgenizi almayı unutmayınız. Yaş ve km ye uymayan araçlarımızda garantili olup 101 nokta teknik kontrolden geçerek eksiksiz ve sorunsuz bil şekilde teslim edilmektedir.",
+            "gar1": "4 yaş ve 80.000 km yi geçmemiş araçlarda 12 ay PLUS garanti",
+            "gar2": "8 yaş ve 160.000 km yi geçmemiş araçlarda 6 ay CLASSIC garanti"
         }
     },
     "service":{

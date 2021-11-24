@@ -116,7 +116,7 @@ export const StyledHome = styled.div`
                 font-family: arial;
                 position: relative;
                 color: var(--white);
-                font-size: 5rem;
+                font-size: 4rem;
                 margin: 0 auto;
                 width: 100%;
                 height: 100%;
@@ -339,11 +339,24 @@ export const StyledHomeAbout = styled.section`
                     }
                     .icon-desc{
                         margin-top: 3rem;
-                        svg{
-                            path{
-                                fill: var(--blue1);
+                        div{
+                            cursor: pointer;
+                            svg{
+                                path{
+                                    fill: var(--blue1);
+                                }
                             }
                         }
+                        ${({ theme }) => theme.phone`
+                            margin: 0;
+                            div{
+                                width: 50%;
+                                svg{
+                                    width: 10rem;
+                                    height: 10rem;
+                                }
+                            }
+                        `};
                     }
                 }
             }

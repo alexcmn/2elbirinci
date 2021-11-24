@@ -60,7 +60,9 @@
         },
         "tab3":{
             "h1": "Guarantee",
-            "p1": "With the 2nd hand dealership, vehicles that are 4 years old and not exceeding 80,000 km are guaranteed for 12 months PLUS and 6 months CLASSIC guarantee for vehicles that have not exceeded 8 years and 160,000 km. Please note that at the time of delivery, you will receive your warranty certificate valid all over Turkey. In our vehicles that do not comply with age and km, 101 points are checked and delivered completely and smoothly."
+            "p1": "With the 2nd hand dealership, vehicles that are 4 years old and not exceeding 80,000 km are guaranteed for 12 months PLUS and 6 months CLASSIC guarantee for vehicles that have not exceeded 8 years and 160,000 km. Please note that at the time of delivery, you will receive your warranty certificate valid all over Turkey. In our vehicles that do not comply with age and km, 101 points are checked and delivered completely and smoothly.",
+            "gar1": "12-month PLUS guarantee for vehicles over 4 years and 80,000 km",
+            "gar2": "6-month CLASSIC guarantee for vehicles aged 8 years and not exceeding 160,000 km"            
         }
     },
     "service":{

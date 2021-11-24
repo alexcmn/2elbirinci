@@ -10,8 +10,11 @@ import { ReactComponent as HB4 } from 'Assets/icons/hb4.svg';
 import { ReactComponent as HB5 } from 'Assets/icons/hb5.svg';
 import { ReactComponent as HB6 } from 'Assets/icons/hb6.svg';
 import { translate } from 'react-switch-lang';
+import { useHistory } from 'react-router';
 
 function About({ t }) {
+
+    const history = useHistory();
 
     let parent = document.querySelectorAll('.animate-text');
     useEffect(() => {
@@ -19,6 +22,37 @@ function About({ t }) {
             parent[i].style.width = parent[i].children[0].clientWidth + "px";
         };
     }, [parent])
+
+    const redirectTo = () => {
+        history.push('/about')
+    }
+
+    const icons = [
+        {
+            icon: <HB1 />,
+            title: t('home.about.icon1')
+        },
+        {
+            icon: <HB2 />,
+            title: t('home.about.icon2')
+        },
+        {
+            icon: <HB3 />,
+            title: t('home.about.icon3')
+        },
+        {
+            icon: <HB4 />,
+            title: t('home.about.icon4')
+        },
+        {
+            icon: <HB5 />,
+            title: t('home.about.icon5')
+        },
+        {
+            icon: <HB6 />,
+            title: t('home.about.icon6')
+        }
+    ]
 
     return (
         <StyledHomeAbout>
@@ -37,30 +71,16 @@ function About({ t }) {
                                 <StyledHeadline data-text={t('home.about.h2')}>{t('home.about.h2')}</StyledHeadline>
                                 <p>{t('home.about.p2')}</p>
                                 <div className="row icon-desc">
-                                    <Col md={2}>
-                                        <HB1/>
-                                        <p>{t('home.about.icon1')}</p>
-                                    </Col>
-                                    <Col md={2}>
-                                        <HB2/>
-                                        <p>{t('home.about.icon2')}</p>
-                                    </Col>
-                                    <Col md={2}>
-                                        <HB3/>
-                                        <p>{t('home.about.icon3')}</p>
-                                    </Col>
-                                    <Col md={2}>
-                                        <HB4/>
-                                        <p>{t('home.about.icon4')}</p>
-                                    </Col>
-                                    <Col md={2}>
-                                        <HB5/>
-                                        <p>{t('home.about.icon5')}</p>
-                                    </Col>
-                                    <Col md={2}>
-                                        <HB6/>
-                                        <p>{t('home.about.icon6')}</p>
-                                    </Col>
+                                    {
+                                        icons.map((icon, idx) => {
+                                            return (
+                                                <Col key={idx} md={2} onClick={() => redirectTo()}>
+                                                    {icon.icon}
+                                                    <p>{icon.title}</p>
+                                                </Col>
+                                            )
+                                        })
+                                    }
                                 </div>
                             </div>
                         </Col>

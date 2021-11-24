@@ -112,6 +112,17 @@ export const StyledAboutTabs = styled.section`
             }
         }
     }
+    .row{
+        div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            img{
+                margin: 0 auto;
+            }
+        }
+    }
     p{
         text-align: center;
     }

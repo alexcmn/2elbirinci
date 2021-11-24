@@ -1,8 +1,10 @@
 import React from 'react'
-import { Tabs, Tab, Container } from 'react-bootstrap'
+import { Tabs, Tab, Container, Row, Col } from 'react-bootstrap'
 import { StyledHeadline } from 'Components/shared/styledComponents/Elements'
 import { StyledAboutTabs } from '../StyledAbout'
 import { translate } from 'react-switch-lang';
+import Gar1 from 'Assets/gar1.png';
+import Gar2 from 'Assets/gar2.png';
 
 function AboutTabs({ activeTab, handleTabChange, t }) {
     return (
@@ -28,6 +30,16 @@ function AboutTabs({ activeTab, handleTabChange, t }) {
                     <Tab eventKey="guaranty" title={t(`about.tabs.guaranty`)}>
                         <StyledHeadline data-text={t('about.tab3.h1')}>{t('about.tab3.h1')}</StyledHeadline>
                         <p className="mb-5">{t('about.tab3.p1')}</p>
+                        <Row>
+                            <Col xs={12} md={6}>
+                                <img src={Gar1} alt="" />
+                                <p>{t('about.tab3.gar1')}</p>
+                            </Col>
+                            <Col xs={12} md={6}>
+                                <img src={Gar2} alt="" />
+                                <p>{t('about.tab3.gar2')}</p>
+                            </Col>
+                        </Row>
                     </Tab>
                 </Tabs>
             </Container>
