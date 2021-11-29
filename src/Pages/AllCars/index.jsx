@@ -8,9 +8,10 @@ import { generateData, isFormValid, update } from 'Components/Utils/Form/formAct
 import FormField from 'Components/Utils/Form/formFields';
 import { ButtonPrimary } from 'Components/shared/styledComponents/Button';
 import useWindowDimensions from 'Hooks/useWindowDimensions';
-import { AiOutlinePlus } from 'react-icons/ai';
+import { BiFilterAlt } from 'react-icons/bi';
 import { useHistory } from 'react-router';
 import { translate, getLanguage } from 'react-switch-lang';
+import Pagination from 'Components/Pagination';
 
 function AllCars(props) {
 
@@ -24,6 +25,7 @@ function AllCars(props) {
     const { width } = useWindowDimensions();
     const { t } = props;
     const activeLang = getLanguage();
+    const [itemsPerPage, setItemsPerPage] = useState([]);
 
     useEffect(() => {
         dispatch(getAllCars());
@@ -155,15 +157,19 @@ function AllCars(props) {
         }
     }
 
+    const onPageChangePagination = (pageItems) =>{
+        setItemsPerPage(pageItems)
+    }
+
+    const resultTranslation =  activeLang === 'en' ? 
+        itemsPerPage?.length + ' ' + t('allcars.of') + ' ' + allCars?.length + ' ' + t('allcars.result') :
+        allCars?.length + ' ' + t('allcars.result') + ' ' + itemsPerPage?.length + ' ' + t('allcars.of');
+
     return (
         <StyledAllCars>
-            {
-                width < 768 ? 
-                <StyledFilterButton onClick={() => setActiveFilter(!activeFilter)}>
-                    <AiOutlinePlus/>
-                </StyledFilterButton>
-                : null
-            }
+            <StyledFilterButton onClick={() => setActiveFilter(!activeFilter)}>
+                <BiFilterAlt />
+            </StyledFilterButton>
             <StyledFilterSidebar className={activeFilter ? 'active' : ''}>
                 <div className="logo"><img src={Logo} alt="" /></div>
                 <Form onSubmit={() => handleSubmit()}>
@@ -183,15 +189,16 @@ function AllCars(props) {
             </StyledFilterSidebar>
             <StyledResultCars>
                 <Container>
+                    <p>{resultTranslation}</p>
                     <Row>
                         {
-                            allCars && allCars.map((car, idx) => {
+                            itemsPerPage && itemsPerPage.map((car, idx) => {
                                 return (
                                     <Col key={idx} md={4} xs={12}>
                                         <div className="wrapp">
                                             <div class="car-card">
                                                 <div class="image">
-                                                    <img src="https://i.pinimg.com/736x/1f/a5/eb/1fa5eb16020bb5894ab19750a3192093.jpg" alt="HR" />
+                                                    <img src={car?.image[0]?.path} alt="HR" />
                                                 </div>
                                                 <div class="content">
                                                     <h1>{car?.title?.en} / {car?.fuelType?.typeName?.en}</h1>
@@ -211,6 +218,11 @@ function AllCars(props) {
                             })
                         }
                     </Row>
+                    <Pagination
+                        items={allCars && allCars}
+                        onPageChange={(page) => onPageChangePagination(page)}
+                        defPageSize={12}
+                    />
                 </Container>
             </StyledResultCars>
         </StyledAllCars>

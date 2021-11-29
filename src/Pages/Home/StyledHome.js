@@ -36,6 +36,9 @@ export const StyledHome = styled.div`
             background-position: bottom;
             background-size: cover;
             background-attachment: fixed;
+            ${({ theme }) => theme.phone`
+                background-attachment: unset;
+            `};
         }
         .overlay{
             width: 100%;
@@ -339,6 +342,11 @@ export const StyledHomeAbout = styled.section`
                     }
                     .icon-desc{
                         margin-top: 3rem;
+                        button{
+                            background: none;
+                            border: none;
+                            color: var(--blue1);
+                        }
                         div{
                             cursor: pointer;
                             svg{

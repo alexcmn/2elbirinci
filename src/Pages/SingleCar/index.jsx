@@ -17,6 +17,7 @@ function SingleCar(props) {
     const { singleCarData } = carsState;
     const [activeTab, setActiveTab] = useState('multimedia');
     const [dataToRender, setDataToRender] = useState([]);
+    const [carImages, setCarImages] = useState([]);
     const { t } = props;
     const activeLang = getLanguage();
 
@@ -28,20 +29,31 @@ function SingleCar(props) {
         singleCarData && singleCarData[activeTab].length && setDataToRender(singleCarData[activeTab]);
     }, [activeTab, singleCarData])
 
-    const carImages = [
-        {
-            original: 'https://picsum.photos/id/1018/1000/600/',
-            thumbnail: 'https://picsum.photos/id/1018/250/150/',
-        },
-        {
-            original: 'https://picsum.photos/id/1015/1000/600/',
-            thumbnail: 'https://picsum.photos/id/1015/250/150/',
-        },
-        {
-            original: 'https://picsum.photos/id/1019/1000/600/',
-            thumbnail: 'https://picsum.photos/id/1019/250/150/',
-        },
-    ];
+    useEffect(() => {
+        const newImages = [];
+        singleCarData?.image?.map(img => {
+            return newImages.push({
+                original: img?.path,
+                thumbnail: img?.path
+            })
+        })
+        setCarImages(newImages)
+    }, [singleCarData])
+
+    // const carImages = [
+    //     {
+    //         original: 'https://picsum.photos/id/1018/1000/600/',
+    //         thumbnail: 'https://picsum.photos/id/1018/250/150/',
+    //     },
+    //     {
+    //         original: 'https://picsum.photos/id/1015/1000/600/',
+    //         thumbnail: 'https://picsum.photos/id/1015/250/150/',
+    //     },
+    //     {
+    //         original: 'https://picsum.photos/id/1019/1000/600/',
+    //         thumbnail: 'https://picsum.photos/id/1019/250/150/',
+    //     },
+    // ];
 
     const tabs = [
         {
@@ -66,15 +78,20 @@ function SingleCar(props) {
         <StyledSingleCar>
             <Container>
                 <Row>
+                    <Col md={12} xs={12} className="gallery">
+                        <ImageGallery items={carImages} />
+                    </Col>
+                </Row>
+                <Row className="mt-5">
                     <Col md={6} xs={12} className="info">
                         <div className="main-card">
                             <h3>{singleCarData?.title[activeLang]}</h3>
-                            <p>{singleCarData?.description[activeLang]}</p>
+                            {/* <p>{singleCarData?.description[activeLang]}</p> */}
                             <div className="price">{singleCarData?.price} TRY</div>
                         </div>
                     </Col>
-                    <Col md={6} xs={12} className="gallery">
-                        <ImageGallery items={carImages} />
+                    <Col md={6} xs={12} className="info">
+                        <p>{singleCarData?.description[activeLang]}</p>
                     </Col>
                 </Row>
                 <div className="carr-summary">

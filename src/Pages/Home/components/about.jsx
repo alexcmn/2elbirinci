@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Popover, Button, OverlayTrigger, ButtonToolbar } from 'react-bootstrap'
 import { StyledHomeAbout } from '../StyledHome'
 import Car from 'Assets/cars/car1.png';
 import { StyledHeadline } from 'Components/shared/styledComponents/Elements';
@@ -30,29 +30,43 @@ function About({ t }) {
     const icons = [
         {
             icon: <HB1 />,
-            title: t('home.about.icon1')
+            title: t('home.about.tab1.title'),
+            desc: t('home.about.tab1.desc')
         },
         {
             icon: <HB2 />,
-            title: t('home.about.icon2')
+            title: t('home.about.tab2.title'),
+            desc: t('home.about.tab2.desc')
         },
         {
             icon: <HB3 />,
-            title: t('home.about.icon3')
+            title: t('home.about.tab3.title'),
+            desc: t('home.about.tab3.desc')
         },
         {
             icon: <HB4 />,
-            title: t('home.about.icon4')
+            title: t('home.about.tab4.title'),
+            desc: t('home.about.tab4.desc')
         },
         {
             icon: <HB5 />,
-            title: t('home.about.icon5')
+            title: t('home.about.tab5.title'),
+            desc: t('home.about.tab5.desc')
         },
         {
             icon: <HB6 />,
-            title: t('home.about.icon6')
+            title: t('home.about.tab6.title'),
+            desc: t('home.about.tab6.desc')
         }
     ]
+
+    const renderPopover = (tab) => {
+        return (
+            <Popover id="popover-positioned-bottom" title={tab?.title}>
+                <div dangerouslySetInnerHTML={{ __html: tab?.desc }}/>
+            </Popover>
+        )
+    }
 
     return (
         <StyledHomeAbout>
@@ -70,18 +84,24 @@ function About({ t }) {
                             <div className="desc-box">
                                 <StyledHeadline data-text={t('home.about.h2')}>{t('home.about.h2')}</StyledHeadline>
                                 <p>{t('home.about.p2')}</p>
-                                <div className="row icon-desc">
-                                    {
-                                        icons.map((icon, idx) => {
-                                            return (
-                                                <Col key={idx} md={2} onClick={() => redirectTo()}>
-                                                    {icon.icon}
-                                                    <p>{icon.title}</p>
-                                                </Col>
-                                            )
-                                        })
-                                    }
-                                </div>
+                                <ButtonToolbar>
+                                    <div className="row icon-desc">
+                                        {
+                                            icons.map((icon, idx) => {
+                                                return (
+                                                    <Col key={idx} md={2}>
+                                                        <OverlayTrigger trigger="click" placement="bottom" overlay={renderPopover(icon)}>
+                                                            <Button>
+                                                                {icon.icon}
+                                                                <p>{icon.title}</p>
+                                                            </Button>
+                                                        </OverlayTrigger>
+                                                    </Col>
+                                                )
+                                            })
+                                        }
+                                    </div>
+                                </ButtonToolbar>
                             </div>
                         </Col>
                     </Row>

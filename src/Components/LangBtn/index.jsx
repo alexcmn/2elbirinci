@@ -1,20 +1,22 @@
 import React, { useState } from 'react'
 import { StyledLangBtn } from './StyledLangBtn'
-import {ReactComponent as Lang} from 'Assets/icons/lang.svg';
 import EN from 'Assets/icons/eng.png';
 import TUR from 'Assets/icons/tur.png';
-import { translate } from 'react-switch-lang';
+import EN2 from 'Assets/icons/eng2.png';
+import TUR2 from 'Assets/icons/tur2.png';
+import { translate, getLanguage } from 'react-switch-lang';
 
 function LangBtn(props) {
 
     const [open, setOpen] = useState(false);
     const { t, changeLanguage } = props;
+    const activeLang = getLanguage();
 
     const openLang = () => setOpen(!open);
 
     return (
         <StyledLangBtn className={`language-btn ${open ? 'active' : ''}`} onClick={() => openLang()}>
-            <span><Lang /></span>
+            <span><img src={activeLang === 'en' ? EN2 : TUR2} alt="" /></span>
             <ul>
                 <li onClick={() => changeLanguage('en')}>
                     <img src={EN} alt="" />{t('langBtn.li1')}

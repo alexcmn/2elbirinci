@@ -142,8 +142,8 @@ const FormField = ({ formdata, change, id }) => {
                             >
                                 <option value="">{formdata.config.placeholder}</option>
                                 {
-                                    formdata?.config?.options?.map(item => (
-                                        <option key={item.key}
+                                    formdata?.config?.options?.map((item, itIdx) => (
+                                        <option key={item.key + itIdx}
                                             value={item.key}
                                         >
                                             {/* {

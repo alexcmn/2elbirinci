@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const StyledLangBtn = styled.div`
-position: fixed;
+    position: fixed;
     bottom: 25px;
     right: 25px;
-    width: 50px;
-    height: 50px;
+    width: 4rem;
+    height: 4rem;
     background-color: var(--blue1);
     border-radius: 50%;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
@@ -20,18 +20,24 @@ position: fixed;
         justify-content: center;
         align-items: center;
         color: var(--blue3);
-        font-size: 2em;
+        font-size: 3em;
         transition: 0.3s ease-in-out;
 
-        svg {
-            width: 30px;
-            height: 30px;
-
-            path {
-                fill: var(--white);
-            }
+        img {
+            width: 3rem;
+            height: 3rem;
         }
     }
+    ${({ theme }) => theme.phone`
+        width: 3rem;
+        height: 3rem;
+        span{
+            img{
+                width: 2rem;
+                height: 2rem;
+            }
+        }
+    `};
 
     ul {
         position: absolute;

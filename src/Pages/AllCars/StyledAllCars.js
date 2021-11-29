@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const StyledAllCars = styled.div`
     width: 100vw;
+    position: relative;
 `
 
 export const StyledFilterSidebar = styled.div`
@@ -41,9 +42,9 @@ export const StyledFilterSidebar = styled.div`
 `
 
 export const StyledResultCars = styled.div`
-    position: absolute;
-    top: 0;
-    left: 20vw;
+    /* position: absolute; */
+    /* top: 0; */
+    margin-left: 20vw;
     width: 80vw;
     padding: 5rem 0;
     .container{
@@ -149,7 +150,7 @@ export const StyledResultCars = styled.div`
     }
     ${({ theme }) => theme.phone`
         width: 100vw;
-        position: unset;
+        margin-left: 0;
         height: unset;
     `};
 `
@@ -159,7 +160,7 @@ export const StyledFilterButton = styled.div`
     height: 3rem;
     border-radius: 10px;
     background: var(--white);
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     box-shadow: 0 0 20px 0 rgba(0,0,0,0.25);
@@ -174,4 +175,7 @@ export const StyledFilterButton = styled.div`
             fill: var(--blue1);
         }
     }
+    ${({ theme }) => theme.phone`
+        display: flex;
+    `};
 `

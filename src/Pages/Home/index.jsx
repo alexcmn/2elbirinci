@@ -7,7 +7,7 @@ import CarFilters from './components/carFilters';
 import About from './components/about';
 import FAQ from './components/faq';
 import useWindowDimensions from 'Hooks/useWindowDimensions';
-import { FiMoreHorizontal } from 'react-icons/fi';
+import { BiFilterAlt } from 'react-icons/bi';
 import { useDispatch } from 'react-redux';
 import { getAllBodyTypes, getAllBrands, getAllCars, getAllColors, getAllFuelTypes, getAllGearTypes, getAllModels } from 'Store/actions/cars_actions';
 import { translate, getLanguage } from 'react-switch-lang';
@@ -45,7 +45,7 @@ function Home(props) {
                 </div>
                 {
                     width < 768 ?
-                        <div className="plus-btn" onClick={() => setShowFilters(!showFilters)}><FiMoreHorizontal/></div>
+                        <div className="plus-btn" onClick={() => setShowFilters(!showFilters)}><BiFilterAlt/></div>
                     : null
                 }
                 <CarFilters isMobActive={showFilters} activeLang={activeLang} t={t} />
