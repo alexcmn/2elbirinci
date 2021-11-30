@@ -1,207 +1,211 @@
 {
-    "langBtn": {
-        "li1": "English",
-        "li2": "Turkish"
+  "langBtn": {
+    "li1": "English",
+    "li2": "Turkish"
+  },
+  "home": {
+    "banner": {
+      "h1": "LET'S CHOOSE",
+      "h2": "YOUR COMPANION",
+      "h3": "TOGETHER"
     },
-    "home": {
-        "banner": {
-            "h1": "LET'S CHOOSE",
-            "h2": "YOUR COMPANION",
-            "h3": "TOGETHER"
-        },
-        "about":{
-            "h1": "Find Your Dream Car",
-            "p1": "All current brands and models already on sale in Turkey are waiting for you to get the best price in the 2nd hand com system! Create your dream car in 2nd Hand First by adding the extra hardware and package features offered by the brand, delivered immediately if you wish. 2.Hand First system never allows you to ask for a quote for a car that is not on sale or has no production possibility, and therefore to dream that cannot be realized. For this reason, 2nd Hand First is also a highly reliable source of information and research.",
-            "h2": "Why 2nd Hand First?",
-            "p2": "All our employees consist of professionals who have gained experience by taking various duties and responsibilities in the automotive sector. They are the most equipped experts in the automotive industry in terms of customer expectations and service standards.",
-            "tab1":{
-                "title": "Hundreds of vehicles",
-                "desc": "<p><span style='font-weight: 400;'>Turkey's leading company with its wide product range in all segments Inciroglu 2nd Hand provides the same variety to our customers in 2nd hand car services. Car for sale, truck for sale, minibus for sale, van for sale.. The used car you are looking for, no matter which segment, which brand; All car brands find their place in Inciroglu 2nd Hand and&nbsp; it is offered to the taste of our customers.</span></p><p><span style='font-weight: 400;'>You have a used car, a used van, a used minibus or a used truck ? To dispose of your car for sale, you don't have to struggle and waste time in the auto dealership or auto markets. The 2nd hand car you have is evaluated by İnciroglu 2nd hand dealers with 2nd hand expertise and transparency.&nbsp; Whether you want to exchange your used car for a 0 km car or another used car. The choice is yours.</span></p><p><span style='font-weight: 400;'>Are you looking for a 2nd hand car? After you make your choice of wide options, you leave the rest to our expert second-hand staff. The transfer, license, notary sales, automobile insurance and traffic insurance transactions of your vehicle are followed by expert staff in Inciroglu 2nd hand authorized dealers. Without your struggle, your vehicle is delivered to you. Within the scope of İnciroğlu 2nd hand ;</span></p><p><span style='font-weight: 400;'>Thanks to the quality and reliable used car services offered by Turkey's leading brand, you can easily get used cars of every brand.&nbsp;</span></p><p><span style='font-weight: 400;'>Regardless of the brand of car for sale, you are comfortably evaluating inciroglu 2nd hand authorized dealers; you take advantage of the swap options.</span></p><p><span style='font-weight: 400;'>You don't struggle with anything. Our expert staff in our authorized dealers carry out notary sales, licensing, transfer, traffic insurance and insurance transactions for you.</span></p><p><span style='font-weight: 400;'>All car brands come together with Inciroglu 2nd hand quality and assurance.</span></p>"
-            },
-            "tab2":{
-                "title": "Detailed Expertise",
-                "desc": "<p><span style='font-weight: 400;'>Inciroglu 2nd hand, with its expertise and experience in the sector, makes you a second-hand car owner without question marks in your head. Inciroglu 2nd hand authorized dealers and specialist staff in their services,</span></p><p><span style='font-weight: 400;'>Before bringing our 2nd hand car advertisements to you, 2nd hand vehicles are subjected to detailed expertise process.&nbsp; The expertise process, which begins with the questioning of the vehicle service history*, continues with the examination of the mechanical parts, paint-bodywork and interior of the vehicle. The vehicle appraisal ends with the vehicle being tested in road conditions and reporting the findings.</span></p><p><span style='font-weight: 400;'>Within the scope of the expertise carried out meticulously by expert second-hand personnel, the following checks are carried out:</span></p><ul><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Checking the vehicle's service history and confirming the current km information</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Measurement of paint thickness of vehicle bodywork</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Control of fluids that keep the vehicle running properly, such as engine oil, brake fluid, engine coolant and wiper water</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Examination of the condition of the time-over and V-belt</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Functional control of battery, air conditioning, electric windows, central lock, radio/CD player, headlights, signals and other electrical systems in the vehicle</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Review of the condition of the wheels and covers and measurement of the depth of the rubber thread</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Eye control of vehicle interior</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Control of engine oil leaks, brake pipes, brake discs and pads, exhaust pipes and suspension system</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Measurement of engine overall performance, brake performance, transmission functionality by taking road testing; control of in-car indicators</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>You can be peaceful now with the auto expertise process carried out in Inciroglu 2nd hand.</span></li></ul>"
-            },
-            "tab3":{
-                "title": "Easy Buying Process",
-                "desc": "<p><span style='font-weight: 400;'>Inciroglu 2nd hand, İnciroglu 2nd hand, is a common platform created as a Group brand to better serve you throughout Turkey in the widespread authorized dealer sales network related to used vehicle buying, selling, long-term rental, clearing and financing services.&nbsp;</span></p><p><span style='font-weight: 400;'>Inciroglu 2nd hand provides vehicle swap and second hand sales services of all brands, models and ages on its platform.</span></p><p><span style='font-weight: 400;'>Inciroglu 2nd hand, every car sold at over twenty authorized points of sale;</span></p><ul><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Performs detailed checks.</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>It follows the transfer and licensing procedures.</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>When taking swaps, expertise &amp; detail checks give you the optimum price.</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>It provides optimal payment conditions with the financing support team during its purchase.</span></li></ul><p><span style='font-weight: 400;'>&nbsp;In all these stages, Inciroglu 2nd hand offers assurance.</span></p>"
-            },
-            "tab4":{
-                "title": "Swap Possibility",
-                "desc": "<p><span style='font-weight: 400;'>In today's conditions, where the 2nd hand car market is expanding and 2nd hand vehicles are gaining more and more value, anyone who is thinking of buying or selling their car follows the movements of the market with interest. Sell the vehicle at its value, that users look after their vehicle really carefully; he wants to buy a clean used, quality and trouble-free car at an affordable price. Despite this desire of users, it is not easy to find what they are looking for in the complex conditions of the used car market. In today's conditions, where there is a large supply of 2nd hand vehicles and many of these vehicles are not reliable enough, the car swap method provides a convenient and easy solution for users to find what they are looking for.</span></p><p><span style='font-weight: 400;'>&nbsp;</span></p><p><span style='font-weight: 400;'>What Does the Car Swap Method Provide to Users?</span></p><p><span style='font-weight: 400;'>To sell cars and buy new vehicles, users need to overcome many challenges. Users may have to give up their jobs and daily lives in order to get through this process, which takes a lot of time. Not being able to sell his car at its value or having to buy the car he was going to buy expensively; it arises as a risk to both buyers and sellers. It is possible to overcome all these difficulties faced by users in the process of selling and buying vehicles by car swap method.</span></p><p><span style='font-weight: 400;'>The car swap method stands out as a very efficient method for users to sell their vehicle without losing value and to buy the vehicle at an affordable price. In this method, the buyer and seller set a mutual price for their vehicles; the owner of the low-priced vehicle pays part of the price of the other vehicle with his own vehicle and the rest in cash. Thus, users complete the trading process by transferring their vehicles to each other at appropriate and correct prices.</span></p>"
-            },
-            "tab5":{
-                "title": "Convenient Credit Options",
-                "desc": "<p><span style='font-weight: 400;'>If you've found the best vehicle for you, let's consider your payment options together.</span></p><p><span style='font-weight: 400;'>In recent years, credit has become one of the most preferred payment methods for 2nd hand vehicle purchases.</span></p><p><span style='font-weight: 400;'>If you plan to make your payment by credit method, do not make your decision without looking at our credit options that best respond to your needs.</span></p><p><span style='font-weight: 400;'>In the second hand vehicle credit you will receive from Inciroglu 2nd hand, you have the opportunity to credit 70% of the vehicle price and to instal this amount, which can be credited, for 3 to 48 months.</span></p>"
-            },
-            "tab6":{
-                "title": "Instant Return If There İs A Problem",
-                "desc": "<p><span style='font-weight: 400;'>The fear of being 'tricked' when buying 2nd hand cars is a concern experienced by almost everyone. Because the used car you bought for a large amount of fees is damaged, it can be very annoying to notice that it has different damage than you indicated. Even for this reason alone, there are quite a number of people who would rather buy a zero-mileage car than buy second-hand. However, when a return guarantee can be offered for used car sales, both buyer and seller can experience a much safer and ethical shopping process.</span></p><p><span style='font-weight: 400;'>The main issues considered in the process of purchasing cars can be summarized as follows:</span></p><ul><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>The price of the used car to be purchased coincides with the budget you have,</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>&nbsp;The average monthly fuel consumption of the car and the type of fuel used,</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>To be able to reassure the person or institution you bought your car with details such as professional and impartial used car expertise report, return guarantee,</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>&nbsp;To ensure the robustness of the main parts such as the engine, which is extremely costly and difficult to change in the car,</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>&nbsp;The accident history of the used car in question, which is learned through interrogations such as Tramer, is not disturbing,</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>&nbsp;The car satisfies you with aesthetic issues such as color, model, brand in your dream,</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>&nbsp;Low mileage of the car,</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>&nbsp;The car is as young as possible,</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>&nbsp;Easy to sell in the second-hand market.</span></li></ul>"
-            }
-        },
-        "faq":{
-            "title": "Do we have a test drive?",
-            "desc": "We do not have the possibility of test driving in our 2nd hand vehicles, but all maintenance and inspections of our vehicles have been completed and carried out by our team of experts in the field of driving tests.",
-            "faq1h": "Is the mileage original?",
-            "faq1p": "5664 queries were made from the license plates and squint numbers of all vehicles in our body, the Tuv-Turk registrations of the Ministry of Transport were examined in detail and mileage accuracy was meticulously ensured.",
-            "faq2h": "Is your shopping safe?",
-            "faq2p": "In order not to experience any victimization, we carry out your vehicle purchase and sale transactions in the presence of a notary public. We make inquiries about distraint or threats on the vehicle before going to the notary and secure your purchase.",
-            "faq3h": "Is there a guarantee?",
-            "faq3p": "With the 2nd hand dealership, vehicles that are 4 years old and not exceeding 80,000 km are guaranteed for 12 months PLUS and 6 months CLASSIC warranty for vehicles that have not exceeded 8 years and 160,000 km. Please dont forget that at the time of delivery, you will receive your guarantee  certificate valid all over Turkey. It is guaranteed in our vehicles that do not comply with age and km and 101 points are delivered completely and smoothly by undergoing technical check.",
-            "faq4h": "Do you have a Tramer record?",
-            "faq4p": "Tramer is short for Traffic Insurance Information Center. This system is a data store where all insurance information is collected. The chassis number or license plate of all vehicles in our body were queried from 5664.",
-            "faq5h": "Quick approval on credit",
-            "faq5p": "Zero km. or the process of obtaining vehicle loans for used vehicles is getting shorter in the developing banking sector. You can get a positive or negative response within an average of 1 day for your vehicle credit, which you will apply for only with your T.C. id number. The most important factor in the vehicle credit approval process is your credit rating or credit score. If your relationship with the banks is positive and you are making your credit payments without interruption, your vehicle loan will be approved shortly.",
-            "faq6h": "Aesthetics - Is there a Carcare service?",
-            "faq6p": "We provide Indoor and Outdoor Washing and Auto Hairdressing Services, Interior protection applications, Paint resorption and protection applications, Paint Protection Films, Solar Control Films, Glass Safety Films, Detailed Cleaning Applications services.",
-            "faq7h": "Legally trouble-free?",
-            "faq7p": "The process of buying and selling vehicles begins with the determination and fulfillment of your requests and needs; it is a smooth process that continues with after-sales services. It finds an institutional interlocutor at every point of the processes developed entirely on the principle of customer focus. you experience the privilege of İNCİROĞLU with the understanding of service above your expectations. In a comfortable and comfortable environment, you can buy and sell your car effortlessly. Transfer, notary and licensing of all vehicles sold and received; is carried out by our expert staff. In this way, when you buy and sell vehicles, your transactions are easily carried out without having to deal with strenuous and long procedures."
-        }
+    "about": {
+      "h1": "Find Your Dream Car",
+      "p1": "All current brands and models already on sale in Turkey are waiting for you to get the best price in the 2nd hand com system! Create your dream car in 2nd Hand First by adding the extra hardware and package features offered by the brand, delivered immediately if you wish. 2.Hand First system never allows you to ask for a quote for a car that is not on sale or has no production possibility, and therefore to dream that cannot be realized. For this reason, 2nd Hand First is also a highly reliable source of information and research.",
+      "h2": "Why 2nd Hand First?",
+      "p2": "All our employees consist of professionals who have gained experience by taking various duties and responsibilities in the automotive sector. They are the most equipped experts in the automotive industry in terms of customer expectations and service standards.",
+      "tab1": {
+        "title": "Hundreds of vehicles",
+        "desc": "<p><span style='font-weight: 400;'>Turkey's leading company with its wide product range in all segments Inciroglu 2nd Hand provides the same variety to our customers in 2nd hand car services. Car for sale, truck for sale, minibus for sale, van for sale.. The used car you are looking for, no matter which segment, which brand; All car brands find their place in Inciroglu 2nd Hand and&nbsp; it is offered to the taste of our customers.</span></p><p><span style='font-weight: 400;'>You have a used car, a used van, a used minibus or a used truck ? To dispose of your car for sale, you don't have to struggle and waste time in the auto dealership or auto markets. The 2nd hand car you have is evaluated by İnciroglu 2nd hand dealers with 2nd hand expertise and transparency.&nbsp; Whether you want to exchange your used car for a 0 km car or another used car. The choice is yours.</span></p><p><span style='font-weight: 400;'>Are you looking for a 2nd hand car? After you make your choice of wide options, you leave the rest to our expert second-hand staff. The transfer, license, notary sales, automobile insurance and traffic insurance transactions of your vehicle are followed by expert staff in Inciroglu 2nd hand authorized dealers. Without your struggle, your vehicle is delivered to you. Within the scope of İnciroğlu 2nd hand ;</span></p><p><span style='font-weight: 400;'>Thanks to the quality and reliable used car services offered by Turkey's leading brand, you can easily get used cars of every brand.&nbsp;</span></p><p><span style='font-weight: 400;'>Regardless of the brand of car for sale, you are comfortably evaluating inciroglu 2nd hand authorized dealers; you take advantage of the swap options.</span></p><p><span style='font-weight: 400;'>You don't struggle with anything. Our expert staff in our authorized dealers carry out notary sales, licensing, transfer, traffic insurance and insurance transactions for you.</span></p><p><span style='font-weight: 400;'>All car brands come together with Inciroglu 2nd hand quality and assurance.</span></p>"
+      },
+      "tab2": {
+        "title": "Detailed Expertise",
+        "desc": "<p><span style='font-weight: 400;'>Inciroglu 2nd hand, with its expertise and experience in the sector, makes you a second-hand car owner without question marks in your head. Inciroglu 2nd hand authorized dealers and specialist staff in their services,</span></p><p><span style='font-weight: 400;'>Before bringing our 2nd hand car advertisements to you, 2nd hand vehicles are subjected to detailed expertise process.&nbsp; The expertise process, which begins with the questioning of the vehicle service history*, continues with the examination of the mechanical parts, paint-bodywork and interior of the vehicle. The vehicle appraisal ends with the vehicle being tested in road conditions and reporting the findings.</span></p><p><span style='font-weight: 400;'>Within the scope of the expertise carried out meticulously by expert second-hand personnel, the following checks are carried out:</span></p><ul><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Checking the vehicle's service history and confirming the current km information</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Measurement of paint thickness of vehicle bodywork</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Control of fluids that keep the vehicle running properly, such as engine oil, brake fluid, engine coolant and wiper water</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Examination of the condition of the time-over and V-belt</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Functional control of battery, air conditioning, electric windows, central lock, radio/CD player, headlights, signals and other electrical systems in the vehicle</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Review of the condition of the wheels and covers and measurement of the depth of the rubber thread</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Eye control of vehicle interior</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Control of engine oil leaks, brake pipes, brake discs and pads, exhaust pipes and suspension system</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Measurement of engine overall performance, brake performance, transmission functionality by taking road testing; control of in-car indicators</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>You can be peaceful now with the auto expertise process carried out in Inciroglu 2nd hand.</span></li></ul>"
+      },
+      "tab3": {
+        "title": "Easy Buying Process",
+        "desc": "<p><span style='font-weight: 400;'>Inciroglu 2nd hand, İnciroglu 2nd hand, is a common platform created as a Group brand to better serve you throughout Turkey in the widespread authorized dealer sales network related to used vehicle buying, selling, long-term rental, clearing and financing services.&nbsp;</span></p><p><span style='font-weight: 400;'>Inciroglu 2nd hand provides vehicle swap and second hand sales services of all brands, models and ages on its platform.</span></p><p><span style='font-weight: 400;'>Inciroglu 2nd hand, every car sold at over twenty authorized points of sale;</span></p><ul><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>Performs detailed checks.</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>It follows the transfer and licensing procedures.</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>When taking swaps, expertise &amp; detail checks give you the optimum price.</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>It provides optimal payment conditions with the financing support team during its purchase.</span></li></ul><p><span style='font-weight: 400;'>&nbsp;In all these stages, Inciroglu 2nd hand offers assurance.</span></p>"
+      },
+      "tab4": {
+        "title": "Swap Possibility",
+        "desc": "<p><span style='font-weight: 400;'>In today's conditions, where the 2nd hand car market is expanding and 2nd hand vehicles are gaining more and more value, anyone who is thinking of buying or selling their car follows the movements of the market with interest. Sell the vehicle at its value, that users look after their vehicle really carefully; he wants to buy a clean used, quality and trouble-free car at an affordable price. Despite this desire of users, it is not easy to find what they are looking for in the complex conditions of the used car market. In today's conditions, where there is a large supply of 2nd hand vehicles and many of these vehicles are not reliable enough, the car swap method provides a convenient and easy solution for users to find what they are looking for.</span></p><p><span style='font-weight: 400;'>&nbsp;</span></p><p><span style='font-weight: 400;'>What Does the Car Swap Method Provide to Users?</span></p><p><span style='font-weight: 400;'>To sell cars and buy new vehicles, users need to overcome many challenges. Users may have to give up their jobs and daily lives in order to get through this process, which takes a lot of time. Not being able to sell his car at its value or having to buy the car he was going to buy expensively; it arises as a risk to both buyers and sellers. It is possible to overcome all these difficulties faced by users in the process of selling and buying vehicles by car swap method.</span></p><p><span style='font-weight: 400;'>The car swap method stands out as a very efficient method for users to sell their vehicle without losing value and to buy the vehicle at an affordable price. In this method, the buyer and seller set a mutual price for their vehicles; the owner of the low-priced vehicle pays part of the price of the other vehicle with his own vehicle and the rest in cash. Thus, users complete the trading process by transferring their vehicles to each other at appropriate and correct prices.</span></p>"
+      },
+      "tab5": {
+        "title": "Convenient Credit Options",
+        "desc": "<p><span style='font-weight: 400;'>If you've found the best vehicle for you, let's consider your payment options together.</span></p><p><span style='font-weight: 400;'>In recent years, credit has become one of the most preferred payment methods for 2nd hand vehicle purchases.</span></p><p><span style='font-weight: 400;'>If you plan to make your payment by credit method, do not make your decision without looking at our credit options that best respond to your needs.</span></p><p><span style='font-weight: 400;'>In the second hand vehicle credit you will receive from Inciroglu 2nd hand, you have the opportunity to credit 70% of the vehicle price and to instal this amount, which can be credited, for 3 to 48 months.</span></p>"
+      },
+      "tab6": {
+        "title": "Instant Return If There İs A Problem",
+        "desc": "<p><span style='font-weight: 400;'>The fear of being 'tricked' when buying 2nd hand cars is a concern experienced by almost everyone. Because the used car you bought for a large amount of fees is damaged, it can be very annoying to notice that it has different damage than you indicated. Even for this reason alone, there are quite a number of people who would rather buy a zero-mileage car than buy second-hand. However, when a return guarantee can be offered for used car sales, both buyer and seller can experience a much safer and ethical shopping process.</span></p><p><span style='font-weight: 400;'>The main issues considered in the process of purchasing cars can be summarized as follows:</span></p><ul><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>The price of the used car to be purchased coincides with the budget you have,</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>&nbsp;The average monthly fuel consumption of the car and the type of fuel used,</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>To be able to reassure the person or institution you bought your car with details such as professional and impartial used car expertise report, return guarantee,</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>&nbsp;To ensure the robustness of the main parts such as the engine, which is extremely costly and difficult to change in the car,</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>&nbsp;The accident history of the used car in question, which is learned through interrogations such as Tramer, is not disturbing,</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>&nbsp;The car satisfies you with aesthetic issues such as color, model, brand in your dream,</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>&nbsp;Low mileage of the car,</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>&nbsp;The car is as young as possible,</span></li><li style='font-weight: 400;' aria-level='1'><span style='font-weight: 400;'>&nbsp;Easy to sell in the second-hand market.</span></li></ul>"
+      }
     },
-    "about":{
-        "tabs":{
-            "about": "About us",
-            "mission": "Mission & Vision",
-            "guaranty": "Guarantee"
-        },
-        "tab1":{
-            "h1": "About us",
-            "p1": "Founded in 1985 based in Kayseri and featuring giant world brands IN GROUP; It serves its customers in a total of 3 different locations with 200 employees on an area of 90,000 m2. Our company, which is the market leader in zero vehicles and 2nd hand passenger vehicles in Kayseri, continues its investments and infrastructure works for the transition to corporate governance. Our company includes industry leaders BMW, MINI, FIAT, OPEL, PEUGEOT, CITROEN, HONDA Turkey Sales - Service and spare parts dealerships. It also serves with 2nd Hand First, Premium Selection and In Insurance brands with hundreds of stocks in each brand and model. It always adopts a working culture focused on 'accurate pricing and customer satisfaction' in sales, service, spare parts, insurance and 2nd hand operations. Creating value for its customers considers it a priority to meet its expectations with quality and stability and cares about the development and training of its employees.",
-            "h2": "IN Group",
-            "p2": "In Group continues to support social responsibility projects and education without compromising on providing the best service to both the sector and its customers with its honest and principled work, creating a great added value in our province and region with more than a quarter of a century of experience."
-        },
-        "tab2":{
-            "h1": "Mission",
-            "p1": "Our understanding of management and work at In Group is based on the objectives we set. The point that our company aims to achieve in the long term is our vision; Our strategies to achieve this vision constitute our missions.",
-            "h2": "Vision",
-            "p2": "To add value to our country as an innovative, customer-oriented, socially responsible, reliable friend with its employees."
-        },
-        "tab3":{
-            "h1": "Guarantee",
-            "p1": "With the 2nd hand dealership, vehicles that are 4 years old and not exceeding 80,000 km are guaranteed for 12 months PLUS and 6 months CLASSIC guarantee for vehicles that have not exceeded 8 years and 160,000 km. Please note that at the time of delivery, you will receive your warranty certificate valid all over Turkey. In our vehicles that do not comply with age and km, 101 points are checked and delivered completely and smoothly.",
-            "gar1": "12-month PLUS guarantee for vehicles over 4 years and 80,000 km",
-            "gar2": "6-month CLASSIC guarantee for vehicles aged 8 years and not exceeding 160,000 km"            
-        }
-    },
-    "service":{
-        "tabs":{
-            "garanty": "Guarantee",
-            "expertise": "Expert",
-            "insurance": "Traffic Insurance",
-            "casco": "Casco",
-            "help": "Help"
-        },
-        "tab1":{
-            "h1": "Guarantee",
-            "p1": "With the 2nd hand dealership, vehicles that are 4 years old and not exceeding 80,000 km are guaranteed for 12 months PLUS and 6 months CLASSIC guarantee for vehicles that have not exceeded 8 years and 160,000 km. Please note that at the time of delivery, you will receive your warranty certificate valid all over Turkey. In our vehicles that do not comply with age and km, 101 points are checked and delivered completely and smoothly."
-        },
-        "tab2":{
-            "h1": "Expert",
-            "p1": "Inciroglu 2nd Hand, with its expertise and experience in the sector, makes you a used car owner without question marks in your head. Inciroglu 2nd Hand authorized dealers and specialist staff in their services are subjected to detailed appraisal process of used vehicles before bringing our 2nd hand car advertisements to you. The expertise process, which begins with the questioning of the vehicle service history*, continues with the examination of the mechanical parts, paint-bodywork and interior of the vehicle. The vehicle expertise ends with the vehicle being tested in road conditions and reporting the findings."
-        },
-        "tab3":{
-            "h1": "Traffic Insurance",
-            "p1": "Traffic Insurance is often confused with automobile insurance . The difference of Traffic Insurance from automobile insurance is a mandatory insurance to cover the losses suffered by the other party, not the insurer."
-        },
-        "tab4":{
-            "h1": "What is casco Insurance?",
-            "p1": "It is compensation paid to the insurance owner as a result of damage to any of the motor vehicles in the event of an unexpected situation when the vehicle is moving or stopping, against the will of the insured person. The purpose of this insurance is to ensure that the damages to the insured vehicle are covered. In case of accident with casco, not damage of the other party, but the damage of the vehicle that has been insured is covered."
-        },
-        "tab5":{
-            "h1": "Help",
-            "p1": "In case of possible failure of your vehicle, you can get free roadside assistance from Inciroglu road assistance service 365 days and 24 hours a day. It is a valid service in Turkey and European countries.",
-            "h2": "Inciroglu Mobile Service and On-Site Service",
-            "p2": "Our Mobile Service arrives at the scene and performs the repair of your guaranteed vehicle free of charge. In cases that are not covered by the guarantee (battery running out, tire explosion, key loss, road stay due to running out of fuel, etc.), services may also be provided for a fee.",
-            "h3": "Shooting at Inciroglu Authorized Service",
-            "p3": "If the vehicle cannot be repaired on site, it will take a free car to the nearest Authorised Service or to a service of your kind limited to 50 km.",
-            "h4": "Car Rental Services (Temporary Vehicle Supply)",
-            "p4": "If your vehicle becomes irreparable or unusable on the same day due to the warranty failure that immobilizes your vehicle, a maximum of 3 working days (4 days in total in case of weekend) temporary vehicle is issued during the repair period.",
-            "h5": "Or Continue the Trip By Any Means of Transport",
-            "p5": "Travel may continue in the amount that does not exceed the travel costs or costs of returning to your residence address. It is accessible by plane, bus, train and taxi in the city.",
-            "h6": "Or Hotel Accommodation",
-            "p6": "If you want to wait for your car to be repaired, accommodation is provided in a 3 or 4 star hotel"
-        }
-    },
-    "footer":{
-        "desc": "Founded in 1985 based in Kayseri and featuring giant world brands IN GROUP; It serves its customers in a total of 3 different locations with 200 employees on an area of 90,000 m2. Our company, which is the market leader in zero vehicles and 2nd hand passenger vehicles in Kayseri, continues its investments and infrastructure works for the transition to corporate governance.",
-        "links1":{
-            "h1": "Corporate",
-            "li1": "About Us",
-            "li2": "Mission and Vision",
-            "li3": "Contact Us"
-        },
-        "links2":{
-            "h1": "Our Services",
-            "li1": "Guarantee",
-            "li2": "Expert",
-            "li3": "Traffic Insurance",
-            "li4": "Casco",
-            "li5": "Help"
-        }
-    },
-    "sidebar":{
-        "li1": "Home",
-        "li2": "Corporate",
-        "li3": "Service",
-        "li4": "Finde your Vehicle",
-        "li5": "Contact Us"
-    },
-    "form": {
-        "brand": {
-            "label": "Car Brand",
-            "placeholder": "Select Car Brand"
-        },
-        "bodyType": {
-            "placeholder": "Select Body Type",
-            "label": "Body Type"
-        },
-        "fuelType": {
-            "placeholder": "Select Fuel Type",
-            "label": "Fuel Type"
-        },
-        "gearType": {
-            "placeholder": "Select Gear Type",
-            "label": "Gear Type"
-        },
-        "color": {
-            "placeholder": "Select Color",
-            "label": "Color"
-        },
-        "price": {
-            "label": "Price"
-        },
-        "searchBtn": "Search Car",
-        "showMoreBtn": "Show more"
-    },
-    "carDetails":{
-        "multimedia": "Multimedia",
-        "security": "Secrutiy",
-        "interiorHardware": "İnterior hardware",
-        "exteriorHardware": "Exterior hardware",
-        "name": "Name",
-        "brand": "Brand",
-        "model": "Model",
-        "modelYear": "Model year",
-        "km": "KM",
-        "fuelType": "Fuel Type",
-        "gearType": "Gear Type",
-        "bodyType": "Body Type",
-        "motorPower": "Motor Power",
-        "kilowatt": "Kilowatt",
-        "cubicCapacity": "Cubic Capacity",
-        "seeringWheelSide": "Steering Wheel Side",
-        "color": "Color"
-    },
-    "contact":{
-        "comp": "İnciroğlu Otomotiv S.C.C.",
-        "h1": "İnciroglu 2.El Birinci",
-        "address": "Address",
-        "phone": "Telephone",
-        "wp": "WhatsApp",
-        "mail": "Mail"
-    },
-    "allcars":{
-        "result": "results",
-        "of": "of"
+    "faq": {
+      "title": "Do we have a test drive?",
+      "desc": "We do not have the possibility of test driving in our 2nd hand vehicles, but all maintenance and inspections of our vehicles have been completed and carried out by our team of experts in the field of driving tests.",
+      "faq1h": "Is the mileage original?",
+      "faq1p": "5664 queries were made from the license plates and squint numbers of all vehicles in our body, the Tuv-Turk registrations of the Ministry of Transport were examined in detail and mileage accuracy was meticulously ensured.",
+      "faq2h": "Is your shopping safe?",
+      "faq2p": "In order not to experience any victimization, we carry out your vehicle purchase and sale transactions in the presence of a notary public. We make inquiries about distraint or threats on the vehicle before going to the notary and secure your purchase.",
+      "faq3h": "Is there a guarantee?",
+      "faq3p": "With the 2nd hand dealership, vehicles that are 4 years old and not exceeding 80,000 km are guaranteed for 12 months PLUS and 6 months CLASSIC warranty for vehicles that have not exceeded 8 years and 160,000 km. Please dont forget that at the time of delivery, you will receive your guarantee  certificate valid all over Turkey. It is guaranteed in our vehicles that do not comply with age and km and 101 points are delivered completely and smoothly by undergoing technical check.",
+      "faq4h": "Do you have a Tramer record?",
+      "faq4p": "Tramer is short for Traffic Insurance Information Center. This system is a data store where all insurance information is collected. The chassis number or license plate of all vehicles in our body were queried from 5664.",
+      "faq5h": "Quick approval on credit",
+      "faq5p": "Zero km. or the process of obtaining vehicle loans for used vehicles is getting shorter in the developing banking sector. You can get a positive or negative response within an average of 1 day for your vehicle credit, which you will apply for only with your T.C. id number. The most important factor in the vehicle credit approval process is your credit rating or credit score. If your relationship with the banks is positive and you are making your credit payments without interruption, your vehicle loan will be approved shortly.",
+      "faq6h": "Aesthetics - Is there a Carcare service?",
+      "faq6p": "We provide Indoor and Outdoor Washing and Auto Hairdressing Services, Interior protection applications, Paint resorption and protection applications, Paint Protection Films, Solar Control Films, Glass Safety Films, Detailed Cleaning Applications services.",
+      "faq7h": "Legally trouble-free?",
+      "faq7p": "The process of buying and selling vehicles begins with the determination and fulfillment of your requests and needs; it is a smooth process that continues with after-sales services. It finds an institutional interlocutor at every point of the processes developed entirely on the principle of customer focus. you experience the privilege of İNCİROĞLU with the understanding of service above your expectations. In a comfortable and comfortable environment, you can buy and sell your car effortlessly. Transfer, notary and licensing of all vehicles sold and received; is carried out by our expert staff. In this way, when you buy and sell vehicles, your transactions are easily carried out without having to deal with strenuous and long procedures."
     }
+  },
+  "about": {
+    "tabs": {
+      "about": "About us",
+      "mission": "Mission & Vision",
+      "guaranty": "Guarantee"
+    },
+    "tab1": {
+      "h1": "About us",
+      "p1": "Founded in 1985 based in Kayseri and featuring giant world brands IN GROUP; It serves its customers in a total of 3 different locations with 200 employees on an area of 90,000 m2. Our company, which is the market leader in zero vehicles and 2nd hand passenger vehicles in Kayseri, continues its investments and infrastructure works for the transition to corporate governance. Our company includes industry leaders BMW, MINI, FIAT, OPEL, PEUGEOT, CITROEN, HONDA Turkey Sales - Service and spare parts dealerships. It also serves with 2nd Hand First, Premium Selection and In Insurance brands with hundreds of stocks in each brand and model. It always adopts a working culture focused on 'accurate pricing and customer satisfaction' in sales, service, spare parts, insurance and 2nd hand operations. Creating value for its customers considers it a priority to meet its expectations with quality and stability and cares about the development and training of its employees.",
+      "h2": "IN Group",
+      "p2": "In Group continues to support social responsibility projects and education without compromising on providing the best service to both the sector and its customers with its honest and principled work, creating a great added value in our province and region with more than a quarter of a century of experience."
+    },
+    "tab2": {
+      "h1": "Mission",
+      "p1": "Our understanding of management and work at In Group is based on the objectives we set. The point that our company aims to achieve in the long term is our vision; Our strategies to achieve this vision constitute our missions.",
+      "h2": "Vision",
+      "p2": "To add value to our country as an innovative, customer-oriented, socially responsible, reliable friend with its employees."
+    },
+    "tab3": {
+      "h1": "Guarantee",
+      "p1": "With the 2nd hand dealership, vehicles that are 4 years old and not exceeding 80,000 km are guaranteed for 12 months PLUS and 6 months CLASSIC guarantee for vehicles that have not exceeded 8 years and 160,000 km. Please note that at the time of delivery, you will receive your warranty certificate valid all over Turkey. In our vehicles that do not comply with age and km, 101 points are checked and delivered completely and smoothly.",
+      "gar1": "12-month PLUS guarantee for vehicles over 4 years and 80,000 km",
+      "gar2": "6-month CLASSIC guarantee for vehicles aged 8 years and not exceeding 160,000 km"
+    }
+  },
+  "service": {
+    "tabs": {
+      "garanty": "Guarantee",
+      "expertise": "Expert",
+      "insurance": "Traffic Insurance",
+      "casco": "Casco",
+      "help": "Help"
+    },
+    "tab1": {
+      "h1": "Guarantee",
+      "p1": "With the 2nd hand dealership, vehicles that are 4 years old and not exceeding 80,000 km are guaranteed for 12 months PLUS and 6 months CLASSIC guarantee for vehicles that have not exceeded 8 years and 160,000 km. Please note that at the time of delivery, you will receive your warranty certificate valid all over Turkey. In our vehicles that do not comply with age and km, 101 points are checked and delivered completely and smoothly.",
+      "gar1": "2-month PLUS guarantee for vehicles over 4 years and 80,000 km",
+      "gar2": " 6-month CLASSIC guarantee for vehicles aged 8 years and not exceeding 160,000 km"
+    },
+    "tab2": {
+      "h1": "Expert",
+      "p1": "Inciroglu 2nd Hand, with its expertise and experience in the sector, makes you a used car owner without question marks in your head. Inciroglu 2nd Hand authorized dealers and specialist staff in their services are subjected to detailed appraisal process of used vehicles before bringing our 2nd hand car advertisements to you. The expertise process, which begins with the questioning of the vehicle service history*, continues with the examination of the mechanical parts, paint-bodywork and interior of the vehicle. The vehicle expertise ends with the vehicle being tested in road conditions and reporting the findings."
+    },
+    "tab3": {
+      "h1": "Traffic Insurance",
+      "p1": "Traffic Insurance is often confused with automobile insurance . The difference of Traffic Insurance from automobile insurance is a mandatory insurance to cover the losses suffered by the other party, not the insurer."
+    },
+    "tab4": {
+      "h1": "What is casco Insurance?",
+      "p1": "It is compensation paid to the insurance owner as a result of damage to any of the motor vehicles in the event of an unexpected situation when the vehicle is moving or stopping, against the will of the insured person. The purpose of this insurance is to ensure that the damages to the insured vehicle are covered. In case of accident with casco, not damage of the other party, but the damage of the vehicle that has been insured is covered."
+    },
+    "tab5": {
+      "h1": "Help",
+      "p1": "In case of possible failure of your vehicle, you can get free roadside assistance from Inciroglu road assistance service 365 days and 24 hours a day. It is a valid service in Turkey and European countries.",
+      "h2": "Inciroglu Mobile Service and On-Site Service",
+      "p2": "Our Mobile Service arrives at the scene and performs the repair of your guaranteed vehicle free of charge. In cases that are not covered by the guarantee (battery running out, tire explosion, key loss, road stay due to running out of fuel, etc.), services may also be provided for a fee.",
+      "h3": "Shooting at Inciroglu Authorized Service",
+      "p3": "If the vehicle cannot be repaired on site, it will take a free car to the nearest Authorised Service or to a service of your kind limited to 50 km.",
+      "h4": "Car Rental Services (Temporary Vehicle Supply)",
+      "p4": "If your vehicle becomes irreparable or unusable on the same day due to the warranty failure that immobilizes your vehicle, a maximum of 3 working days (4 days in total in case of weekend) temporary vehicle is issued during the repair period.",
+      "h5": "Or Continue the Trip By Any Means of Transport",
+      "p5": "Travel may continue in the amount that does not exceed the travel costs or costs of returning to your residence address. It is accessible by plane, bus, train and taxi in the city.",
+      "h6": "Or Hotel Accommodation",
+      "p6": "If you want to wait for your car to be repaired, accommodation is provided in a 3 or 4 star hotel"
+    }
+  },
+  "footer": {
+    "desc": "Founded in 1985 based in Kayseri and featuring giant world brands IN GROUP; It serves its customers in a total of 3 different locations with 200 employees on an area of 90,000 m2. Our company, which is the market leader in zero vehicles and 2nd hand passenger vehicles in Kayseri, continues its investments and infrastructure works for the transition to corporate governance.",
+    "links1": {
+      "h1": "Corporate",
+      "li1": "About Us",
+      "li2": "Mission and Vision",
+      "li3": "Contact Us"
+    },
+    "links2": {
+      "h1": "Our Services",
+      "li1": "Guarantee",
+      "li2": "Expert",
+      "li3": "Traffic Insurance",
+      "li4": "Casco",
+      "li5": "Help"
+    }
+  },
+  "sidebar": {
+    "li1": "Home",
+    "li2": "Corporate",
+    "li3": "Service",
+    "li4": "Finde your Vehicle",
+    "li5": "Contact Us"
+  },
+  "form": {
+    "brand": {
+      "label": "Car Brand",
+      "placeholder": "Select Car Brand"
+    },
+    "bodyType": {
+      "placeholder": "Select Body Type",
+      "label": "Body Type"
+    },
+    "fuelType": {
+      "placeholder": "Select Fuel Type",
+      "label": "Fuel Type"
+    },
+    "gearType": {
+      "placeholder": "Select Gear Type",
+      "label": "Gear Type"
+    },
+    "color": {
+      "placeholder": "Select Color",
+      "label": "Color"
+    },
+    "price": {
+      "label": "Price"
+    },
+    "searchBtn": "Search Car",
+    "showMoreBtn": "Show more"
+  },
+  "carDetails": {
+    "bannheadline": "Vehicle Details",
+    "multimedia": "Multimedia",
+    "security": "Secrutiy",
+    "interiorHardware": "İnterior hardware",
+    "exteriorHardware": "Exterior hardware",
+    "name": "Name",
+    "brand": "Brand",
+    "model": "Model",
+    "modelYear": "Model year",
+    "km": "KM",
+    "fuelType": "Fuel Type",
+    "gearType": "Gear Type",
+    "bodyType": "Body Type",
+    "motorPower": "Motor Power",
+    "kilowatt": "Kilowatt",
+    "cubicCapacity": "Cubic Capacity",
+    "seeringWheelSide": "Steering Wheel Side",
+    "color": "Color",
+    "calculatorBtn": "Calculate Credit"
+  },
+  "contact": {
+    "comp": "İnciroğlu Otomotiv S.C.C.",
+    "h1": "İnciroglu 2.El Birinci",
+    "address": "Address",
+    "phone": "Telephone",
+    "wp": "WhatsApp",
+    "mail": "Mail"
+  },
+  "allcars": {
+    "result": "results",
+    "of": "of"
+  }
 }
